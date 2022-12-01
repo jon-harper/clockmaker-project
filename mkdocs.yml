@@ -1,0 +1,73 @@
+site_name: The Clockmaker Project
+site_description: Documentation for The Clockmaker Project.
+site_author: Jon Harper
+site_url: https://jon-harper.github.io/clockmaker-project
+repo_url: https://github.com/jon-harper/clockmaker-project
+repo_name: jon-harper/clockmaker-project
+edit_uri: ""
+copyright: Copyright &copy; 2022 Jonathan Harper
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - abbr
+  - md_in_html
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+theme:
+  name: material
+  logo: img/logo3.png
+  favicon: img/logo3.png
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    
+  font:
+    text: Noto Sans
+    code: Source Code Pro
+  palette: 
+    - scheme: default
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/lightbulb-on
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep orange
+      accent: teal
+      toggle:
+        icon: material/lightbulb-off-outline
+        name: Switch to light mode
+
+extra:
+  social:
+    - icon: fontawesome/brands/reddit
+      link: https://www.reddit.com/user/jonspaceharper
+      name: u/jonspaceharper on Reddit
+    - icon: simple/kofi
+      link: https://ko-fi.com/jonspaceharper
+      name: Support me on Ko-Fi!
+
+extra_css:
+  - assets/stylesheets/neoteroi.css
+  - assets/stylesheets/extra.css
+  
+      
+nav:
+  - index.md
+  - Wiring:
+    - wiring/index.md
+    - wiring/single.md
+    - wiring/multi.md

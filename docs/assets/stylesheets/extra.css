@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'Hack';
+  src: url('../fonts/hack-regular.woff2?sha=3114f1256') format('woff2'), url('../fonts/hack-regular.woff?sha=3114f1256') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('../fonts/hack-bold.woff2?sha=3114f1256') format('woff2'), url('../fonts/hack-bold.woff?sha=3114f1256') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('../fonts/hack-italic.woff2?sha=3114f1256') format('woff2'), url('../fonts/hack-italic.woff?sha=3114f1256') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('../fonts/hack-bolditalic.woff2?sha=3114f1256') format('woff2'), url('../fonts/hack-bolditalic.woff?sha=3114f1256') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+:root {
+  --md-code-font: Hack, Monospace;
+}
+
+[data-md-color-scheme="slate"] {
+    --md-hue: 205; 
+  }  
+
+.md-header__title, h1{
+    font-family: var(--md-code-font);
+}
+
+.md-button {
+    font-family: var(--md-code-font);
+    font-size: 0.75rem;
+    width: 360px;
+    text-align: center;
+}
+
+.md-social__link svg {
+    vertical-align: middle;
+}
+  
+.jh-social {
+    margin: auto;
+    display: flex;
+    align-items: baseline;
+    padding: 0px;
+    margin-top: 15px;
+}
+
+.nt-card .nt-gallery-image {
+    text-align: center;
+    border-radius: 5px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 200px;
+}
+
+.nt-card .nt-gallery-image img {
+    height:200px;
+    margin-top:5px
+}
+
+.nt-gallery-content {
+    padding:.4rem
+}
+
+.nt-card .nt-gallery-title {
+    text-align: center;
+    /* font-weight: 400; */
+    font-size: 0.9em;
+    font-weight: 700;
+    margin:4px 0 8px 0;
+    line-height:20px
+}
+
+.gslide-desc {
+    font-family: var(--md-body-font);
+}
+
+.gslide-title {
+    font-family: var(--md-header-font);
+}
