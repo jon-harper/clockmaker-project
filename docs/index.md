@@ -9,9 +9,9 @@ date: 2022-08-01
 
 Compared to the familiar PLA and PETG, engineering plastics are harder to print, less tolerant of mistakes, typically require an enclosure, and sometimes need high ambient temperatures.
 
-Most 3D printers are not sold enclosed and require modification to operate in an enclosure. Electronics do not tolerate high ambient heat, and even a basic enclosure can reach 45C/113F.
+Most 3D printers are not sold enclosed and require modification to operate within one. Electronics are not usually tolerant of high heat, and even a basic enclosure can reach 45C/113F.
 
-The solution is either to extend or replace the printer's existing wiring harness. This is a time-consuming and meticulous task to do *safely*.
+The solution is to extend or replace the printer's existing wiring harness. This is a time-consuming and meticulous task to do *safely*. (TODO: more on enclosure and fire safety.)
 
 ## The Clockmaker Project
 
@@ -21,36 +21,70 @@ Enter The Clockmaker Project. More toolbox than blueprint, this project collects
 - Temperature monitoring
 - Wiring
 - Insulation
-## Air Filtration and Ventilation
+- Links to outside resources
 
-TODO
+Additionally, the associated git repository has printable files to help build your own enclosure.
 
-## Temperature Monitoring
+## Outline and Status
 
-TODO
+Checkmarks indicate a page exists, not that it is complete.
+### Existing Solutions
 
-## Wiring
+- [ ] COTS Enclosures
+- [ ] Enclosed Printers
 
-## Materials and Insulation
+### Filtration, Ventilation, and Temperature Control
 
-- Materials
-    - Coroplast
-    - Plexiglass
-    - Wood
-    - Aluminum
-    - ABS
-- Insulation
+- [ ] Importance
+- [ ] Temperature monitoring
+- [ ] Air quality monitoring
+- [ ] Techniques
+    - Venting vs. recirculation
+    - Activated carbon
+    - HEPA
+- [ ] Tools and links
+
+### Wiring
+
+- [ ] Connector characteristics
+- [x] Common connectors
+- [ ] Crimping guides and tools
+- [x] Panel mount tips
+- [x] Connector pin order planning
+
+### Materials and Insulation
+
+- [ ] Materials
+    - Framing
+        - Wood
+        - Aluminum
+        - Plastics
+    - Sheets
+        - Wood
+        - Aluminum
+        - Plastics
+            - ABS (acrylonitrile butadiene styrene)
+            - Corrugated PP (polypropylene, Coroplast)
+            - PMMA (Acrylic/Plexiglass)
+- [ ] Insulation
     - Polyisocyanurate (PIR) foam
     - Polystyrene (PS) foam
-    - Cladding
-- Other Material Considerations
+    - Insulation cladding
+    - Other insulators
+- [ ] Other Material Considerations
     - Camera
-    - 
-- Discussions
-    
-    - Enclosure considerations
-    - Buying a printer
-- Projects
-    - Thingiverse Links
-    - Repo Links
-    - Other Useful Stuff
+    - Lighting
+
+### Tools for Building Enclosures
+
+- [ ] Handles
+- [ ] Brackets
+- [ ] Latches
+- [ ] LED holders
+- [ ] Filtration/ventilation
+
+### Projects
+
+- [ ] Thingiverse Links
+- [ ] Repo Links
+- [ ] Other Useful Stuff
