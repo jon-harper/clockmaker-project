@@ -67,7 +67,8 @@ extra_css:
       
 nav:
   - index.md
-  - Wiring:
+  - Connectors and Wiring:
+    - wiring/connectors.md
     - wiring/index.md
     - wiring/single.md
     - wiring/multi.md
