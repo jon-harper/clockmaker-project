@@ -25,66 +25,10 @@ Enter The Clockmaker Project. More toolbox than blueprint, this project collects
 
 Additionally, the associated git repository has printable files to help build your own enclosure.
 
-## Outline and Status
+[:material-tools: Tools and Resources](resources/index.md){ .md-button }
 
-Checkmarks indicate a page exists, not that it is complete.
-### Existing Solutions
+[:material-air-filter: Filtration, Ventilation, and Temperature Control](air/index.md){ .md-button }
 
-- [ ] COTS Enclosures
-- [ ] Enclosed Printers
+[:material-power-plug: Wiring](wiring/index.md){ .md-button }
 
-### Filtration, Ventilation, and Temperature Control
-
-- [ ] Importance
-- [ ] Temperature monitoring
-- [ ] Air quality monitoring
-- [ ] Techniques
-    - Venting vs. recirculation
-    - Activated carbon
-    - HEPA
-- [ ] Tools and links
-
-### Wiring
-
-- [ ] Connector characteristics
-- [x] Common connectors
-- [ ] Crimping guides and tools
-- [x] Panel mount tips
-- [x] Connector pin order planning
-
-### Materials and Insulation
-
-- [ ] Materials
-    - Framing
-        - Wood
-        - Aluminum
-        - Plastics
-    - Sheets
-        - Wood
-        - Aluminum
-        - Plastics
-            - ABS (acrylonitrile butadiene styrene)
-            - Corrugated PP (polypropylene, Coroplast)
-            - PMMA (Acrylic/Plexiglass)
-- [ ] Insulation
-    - Polyisocyanurate (PIR) foam
-    - Polystyrene (PS) foam
-    - Insulation cladding
-    - Other insulators
-- [ ] Other Material Considerations
-    - Camera
-    - Lighting
-
-### Tools for Building Enclosures
-
-- [ ] Handles
-- [ ] Brackets
-- [ ] Latches
-- [ ] LED holders
-- [ ] Filtration/ventilation
-
-### Projects
-
-- [ ] Thingiverse Links
-- [ ] Repo Links
-- [ ] Other Useful Stuff
+[:material-format-list-numbered: Materials](materials/index.md){ .md-button }

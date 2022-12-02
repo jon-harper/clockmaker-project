@@ -39,14 +39,14 @@ theme:
     code: Source Code Pro
   palette: 
     - scheme: default
-      primary: teal
-      accent: deep orange
+      primary: blue grey
+      accent: amber
       toggle:
         icon: material/lightbulb-on
         name: Switch to dark mode
     - scheme: slate
-      primary: deep orange
-      accent: teal
+      primary: amber
+      accent: blue grey
       toggle:
         icon: material/lightbulb-off-outline
         name: Switch to light mode
@@ -67,6 +67,16 @@ extra_css:
       
 nav:
   - index.md
+
+  - Tools & Resources:
+    - resources/index.md
+
+  - Ventilation & Filtration:
+    - air/index.md
+
+  - Materials:
+    - materials/index.md
+
   - Connectors and Wiring:
     - wiring/connectors.md
     - wiring/index.md
