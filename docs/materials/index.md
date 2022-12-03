@@ -1,11 +1,11 @@
 ---
-title: Overview
+title: Materials Overview
 summary: Overview of enclosure construction materials.
 authors: Jon Harper
 date: 2022-12-02
 ---
 
-## Outline and Status
+## TODO Status
 
 Checkmarks indicate a page exists, not that it is complete.
 

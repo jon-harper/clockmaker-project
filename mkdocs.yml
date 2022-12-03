@@ -17,7 +17,9 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.superfences
   - pymdownx.details
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      auto_append: 
+        - include/links.md
   - pymdownx.tabbed:
       alternate_style: true 
   - pymdownx.emoji:
@@ -36,7 +38,6 @@ theme:
     
   font:
     text: Noto Sans
-    code: Source Code Pro
   palette: 
     - scheme: default
       primary: blue grey
@@ -56,6 +57,12 @@ extra:
     - icon: fontawesome/brands/reddit
       link: https://www.reddit.com/user/jonspaceharper
       name: u/jonspaceharper on Reddit
+    - icon: simple/mastodon
+      link: https://mastodon.online/@jonspaceharper
+      name: "Mastodon: jonspaceharper@mastodon.online"
+    - icon: fontawesome/regular/newspaper
+      link: https://post.news/jonspaceharper
+      name: "Post.news: jonspaceharper"
     - icon: simple/kofi
       link: https://ko-fi.com/jonspaceharper
       name: Support me on Ko-Fi!
@@ -63,7 +70,6 @@ extra:
 extra_css:
   - assets/stylesheets/neoteroi.css
   - assets/stylesheets/extra.css
-  
       
 nav:
   - index.md
@@ -74,7 +80,7 @@ nav:
   - Ventilation & Filtration:
     - air/index.md
 
-  - Materials:
+  - Enclosure Materials:
     - materials/index.md
 
   - Connectors and Wiring:

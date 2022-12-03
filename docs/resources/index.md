@@ -34,6 +34,4 @@ Checkmarks indicate a page exists, not that it is complete.
 - [ ] Repo Links
 - [ ] Other Useful Stuff
 
-[ratrig_mesh]:          https://ratrig.com/3d-printing-cnc/printer-enclosure-kits.html "Rat Rig: Enclosure Kits"
-[printed_solid_kits]:   https://www.printedsolid.com/collections/next-generation-enclosures "Printed Solid: Next Generation Enclosures"
-[wham_bam_hotbox]:      https://whambamsystems.com/hotbox "Wham Bam: The Hotbox - 3D Printer Enclosure"
+
