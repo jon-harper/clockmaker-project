@@ -26,7 +26,7 @@ Enter The Clockmaker Project. More toolbox than blueprint, this project collects
 
 - Air filtration and Ventilation
 - Temperature monitoring
-- Wiring
+- Electrical wiring & connectors
 - Insulation
 - Links to outside resources
 
@@ -38,6 +38,6 @@ Additionally, the associated git repository has printable files to help build yo
 
 [:material-air-filter: Filtration, Ventilation, and Temperature Control](air/index.md){ .md-button }
 
-[:material-power-plug: Wiring](wiring/index.md){ .md-button }
+[:material-power-plug: Electrical](wiring/index.md){ .md-button }
 
 [:material-format-list-numbered: Materials](materials/index.md){ .md-button }

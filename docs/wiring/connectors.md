@@ -44,7 +44,7 @@ Common uses:
 [Digikey][link]{ .md-button } 
 -->
 
-## Open Barrel Connectors
+## Pin and Socket Connectors
 
 ### JST PH
 
@@ -70,7 +70,7 @@ Common uses:
 
 ### JST RCY
 
-This is sometimes called JST SYP, though JST lists the product as RCY series. RCY connectors are used in 3D printing to extend wire pairs (or make them disconnectable) as an inline alternative to XH or PH connectors. RCY are also physically smaller in side than SM.
+These are sometimes called JST SYP, though JST lists the product as RCY series. RCY connectors are used in 3D printing to extend wire pairs (or make them disconnectable) as an inline alternative to XH or PH connectors. RCY are also physically smaller in size than SM.
 
 **Summary**
 
@@ -90,7 +90,7 @@ This is sometimes called JST SYP, though JST lists the product as RCY series. RC
 
 ### JST SM
 
-Although these connectors do not have wire-to-board applications, they are easy to crimp and can be panel mounted. A downside to SM connectors is the size of the shell.
+Although these connectors are only for wire-to-wire connections, they are easy to crimp and can be panel mounted. A downside to SM connectors is the size of the shell.
 
 **Summary**
 
@@ -173,29 +173,29 @@ Common uses: ATX connectors in computers
 
 [:simple-digikeyelectronics: Digikey][dk_molex_mfjr]{ .md-button } 
 
-## Closed Barrel
+## Closed Barrel Connectors
 
 These connectors are often used in automotive and marine applications. Their current-carrying capacity is dependant on the size of the surface contact area. The larger the mating contact, the more current that can be safely carried.
 
 Avoid uninsulated terminals; fully insulated marine terminals are best for 3D printing applications.
 
-Generally speaking, closed barrel connectors do not use pins and thus are per-conductor connections.
+Generally speaking, closed barrel connectors do not use pins and thus are single-conductor connections.
 
-### Ring
+### Common Examples
 
-### Fork
+!!! todo "TODO: Expand"
 
-### Spade
-
-### Bullet
-
-### Ferrules
+- Ring
+- Fork
+- Spade
+- Bullet
+- Ferrules
 
 ## Other Connectors
 
 ### Harwin M20 / "DuPont"
 
-**FAQ**
+**FAQ Explanations**
 
 1. [Why are these called DuPont connectors?][dupont_name]
 2. [Why are these so hard to crimp?][dupont_crimp]
@@ -217,13 +217,17 @@ Generally speaking, closed barrel connectors do not use pins and thus are per-co
 [:simple-amazon: Amazon Kit][az_harwin_m20]{ .md-button } 
 
 
-### Aviation-style
+### Aviation
 
-### D-Sub
+!!! todo "TODO: Expand"
+### DSUB
 
+!!! todo "TODO: Expand"
 ### IDC Ribbon
 
-IDC stands for Insulation-displacement contact.
+IDC stands for Insulation-displacement contact. These are meant for low-voltage, low-current applications, particularly digital signaling. They are most frequently found on LCD 3D printer displays.
+
+!!! todo "TODO: Expand"
 
 [tips]:             https://falconerelectronics.com/wire-harness-manufacturing/
 

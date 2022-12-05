@@ -11,12 +11,13 @@ markdown_extensions:
   - admonition
   - attr_list
   - abbr
+  - def_list
   - md_in_html
   - pymdownx.caret
+  - pymdownx.details
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.superfences
-  - pymdownx.details
   - pymdownx.snippets:
       auto_append: 
         - include/links.md
@@ -34,7 +35,6 @@ theme:
   favicon: img/logo3.png
   features:
     - navigation.instant
-    - navigation.sections
     - navigation.top
     
   font:
@@ -57,7 +57,7 @@ extra:
   social:
     - icon: fontawesome/brands/reddit
       link: https://www.reddit.com/user/jonspaceharper
-      name: u/jonspaceharper on Reddit
+      name: "u/jonspaceharper on Reddit"
     - icon: simple/mastodon
       link: https://mastodon.online/@jonspaceharper
       name: "Mastodon: jonspaceharper@mastodon.online"
@@ -66,7 +66,7 @@ extra:
       name: "Post.news: jonspaceharper"
     - icon: simple/kofi
       link: https://ko-fi.com/jonspaceharper
-      name: Support me on Ko-Fi!
+      name: "Support me on Ko-Fi!"
 
 extra_css:
   - assets/stylesheets/neoteroi.css
@@ -84,8 +84,12 @@ nav:
   - Enclosure Materials:
     - materials/index.md
 
-  - Connectors and Wiring:
-    - wiring/connectors.md
+  - Electrical:
     - wiring/index.md
-    - wiring/single.md
-    - wiring/multi.md
+    - wiring/connectors.md
+    - wiring/terms.md
+    - Wiring Harnesses & Panel Mounts:
+      - wiring/panel_tips.md
+      - wiring/single.md
+      - wiring/multi.md
+    

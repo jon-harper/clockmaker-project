@@ -8,3 +8,7 @@
 <!-- connectors -->
 [dupont_name]:      https://www.mattmillman.com/why-do-we-call-these-dupont-connectors/
 [dupont_crimp]:     https://www.mattmillman.com/info/crimpconnectors/dupont-and-dupont-connectors/#m20
+[ferrules]:         https://www.arrow.com/en/research-and-events/articles/what-are-ferrules-and-why-should-you-use-them
+[def_derate]:       https://www.gses.com.au/why-do-we-need-to-derate-electrical-cables/
+[def_terminal]:     http://www.interfacebus.com/Glossary-of-Terms_T.html
+[def_connector]:    http://www.interfacebus.com/Glossary-of-Terms_C5.html
