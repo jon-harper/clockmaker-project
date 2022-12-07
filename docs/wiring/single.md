@@ -148,6 +148,8 @@ Examples of powered sensors are optical limit switches and magnetic ABL sensors.
 
 ### BLTouch
 
+BLTouches can be configured to work with 3.3V or 5V.
+
 | Name     | Pin #  | Color             |
 |:--------:|:------:|:-----------------:|
 | VIN      | 1      | R :red_circle: / B :blue_circle: |
@@ -158,6 +160,8 @@ Examples of powered sensors are optical limit switches and magnetic ABL sensors.
 
 ### I2C
 
+I2C is a 3.3V digital signalling bus. Short cables and eliminating EMI are important to working with I2C. I2C is often used with embedded devices such as atmospheric monitoring sensors.
+
 | Name     | Pin #  | Color             |
 |:--------:|:------:|:-----------------:|
 | VIN      | 1      | R :red_circle: / B :blue_circle: |
@@ -165,7 +169,12 @@ Examples of powered sensors are optical limit switches and magnetic ABL sensors.
 | SDA      | 3      | Y :yellow_circle: |
 | SCL      | 4      | G :green_circle:  |
 
+- Typical AWG: None
+- Common Termination: Adafruit and SparkFun use JST SH connectors for I2C.
+
 ### SPI
+
+SPI is, like I2C, a 3.3V digital bus. It is slightly more forgiving of distance than I2C, but still suffers from noise and voltage drop. It is commonly used for ADXL-series accelerometers.
 
 | Name     | Pin #  | Color             |
 |:--------:|:------:|:-----------------:|
@@ -175,6 +184,9 @@ Examples of powered sensors are optical limit switches and magnetic ABL sensors.
 | CS       | 4      | B :blue_circle:   |
 | MOSI     | 5      | Y :yellow_circle: |
 | MISO     | 6      | W ![white][white] |
+
+- Typical AWG: None
+- Common Termination: None
 
 [black]: ../img/black_circle.png
 [white]: ../img/white_circle.png
