@@ -12,3 +12,4 @@
 [def_derate]:       https://www.gses.com.au/why-do-we-need-to-derate-electrical-cables/
 [def_terminal]:     http://www.interfacebus.com/Glossary-of-Terms_T.html
 [def_connector]:    http://www.interfacebus.com/Glossary-of-Terms_C5.html
+[def_emi]:          https://en.wikipedia.org/wiki/Electromagnetic_interference
