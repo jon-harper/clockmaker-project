@@ -5,4 +5,5 @@
 [az_jst_ph]:        https://www.amazon.com/460PCS-PH2-0-Connector-Terminal-Connectors/dp/B09DBHG6NW
 [az_jst_xh]:        https://www.amazon.com/GeeBat-460pcs-Connector-Housing-Adapter/dp/B01MCZE2HM
 [az_jst_rcy]:       https://www.amazon.com/Connector-Compatible-Extension-Airplanes-Connection/dp/B0B1MXM6NQ
+[az_jst_sh]:        https://www.amazon.com/JST-Connector-Kit-SYP-Connector/dp/B0BDL7LQKQ
 [az_harwin_m20]:    https://www.amazon.com/IWISS-1550PCS-Connector-Headers-Balancer/dp/B08X6C7PZM
