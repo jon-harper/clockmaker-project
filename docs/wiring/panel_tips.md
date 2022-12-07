@@ -16,6 +16,50 @@ Each pin order table has three columns:
 - `Color`: optional color-coding for the conducting wire. 
     - Colors do not always match the wire colors that usually tail a component; this is meant to maintain internal consistency.
     - Colors are solely to help visual identification.
+
+### Entry Abbreviations
+
+Abbreviations for components have three parts: `[Type][Position][#]`.
+
+For example, in `MOTZ2`:
+
+- `MOT` is motor;
+- `Z` is the axis; and
+- `2` refers to the second stepper.
+
+#### Component Names
+
+| Abbreviation | Component          |
+|--------------|--------------------|
+| ABL          | ABL sensor         |
+| BED          | Heated bed         |
+| FAN          | Fan                |
+| HOT          | Hotend             |
+| I2C          | I2C bus            |
+| LIM          | Limit switch       |
+| LGT          | Light (not RGB)    |
+| MOT          | Stepper motor      |
+| PE           | Protective earth   |
+| RGB          | RGB LEDs           |
+| SPI          | SPI bus            |
+| TH           | Thermistor         |
+
+#### Positions: Steppers and Limit Switches
+
+| Abbreviation | Position |
+|--------------|----------|
+| X            | X axis   |
+| Y            | Y axis   |
+| Z            | Z axis   |
+
+#### Positions: Fans, Lights, and Thermistors
+
+| Abbreviation | Position |
+|--------------|----------|
+| H            | Hotend/toolhead |
+| E            | Electronics enclosure   |
+| C            | Chamber/printer enclosure |
+
 ### Wire Colors
 
 Six (6) color sets of hookup wire often come with the same color combinations. We use this palette throughout, along with the following abbreviations:

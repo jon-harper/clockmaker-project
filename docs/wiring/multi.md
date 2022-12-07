@@ -10,27 +10,19 @@ date: 2022-11-29
 ??? note "Reading Entries"
     - `Name`: an abbreviation for what the pin does. This is for identification only.
     - `Pin #`: order of the pin in the connector.
-    - `Color`: optional color-coding for the conducting wire. 
-        - Colors do not always match the wire colors that usually tail a component; this is meant to maintain internal consistency.
+    - `Color`: optional color-coding for the wire insulation.
         - Colors are solely to help visual identification.
-    
-    | Color  | Abbreviation      |
-    |--------|:-----------------:|
-    | Black  | K ![black][black] |
-    | Blue   | B :blue_circle:   |
-    | Green  | G :green_circle:  |
-    | Red    | R :red_circle:    |
-    | White  | W ![white][white] |
-    | Yellow | Y :yellow_circle: |
+        - Colors do not always match the wire colors that usually tail a component; this is meant to maintain internal consistency.
 
-X Limit Switch and Stepper
+    See the [tips](panel_tips.md) page for a more details explanation.
 
-| Pin #  | Name     | Color             | Pin #   | Name     |  Color             |
-|:------:|:--------:|:-----------------:|:-------:|:--------:|:------------------:|
-| 1      | LIMX SIG | Y :yellow_circle: | 4       | LIMX GND | W ![white][white]  |
-| 2      | MOTX 1A  | R :red_circle:    | 5       | MOTX 2A  | G :green_circle:   |
-| 3      | MOTX 1B  | B :blue_circle:   | 6       | MOTX 2B  | K ![black][black]  |
+### X Limit Switch and Stepper
 
+| Pin #  | Name     | Color             |  Color             | Name     | Pin #   |
+|:------:|:--------:|:-----------------:|:------------------:|:--------:|:-------:|
+| **1**  | LIMX SIG | Y :yellow_circle: | W ![white][white]  | LIMX GND | **4**   |
+| **2**  | MOTX 1A  | R :red_circle:    | G :green_circle:   | MOTX 2A  | **5**   |
+| **3**  | MOTX 1B  | B :blue_circle:   | K ![black][black]  | MOTX 2B  | **6**   |
 
 [black]: ../img/black_circle.png
 [white]: ../img/white_circle.png

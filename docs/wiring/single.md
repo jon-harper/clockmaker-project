@@ -13,19 +13,11 @@ date: 2022-11-29
     - `Color`: optional color-coding for the wire insulation.
         - Colors are solely to help visual identification.
         - Colors do not always match the wire colors that usually tail a component; this is meant to maintain internal consistency.
-    
-    | Color  | Abbreviation      |
-    |--------|:-----------------:|
-    | Black  | K ![black][black] |
-    | Blue   | B :blue_circle:   |
-    | Green  | G :green_circle:  |
-    | Red    | R :red_circle:    |
-    | White  | W ![white][white] |
-    | Yellow | Y :yellow_circle: |
 
     - `Typical AWG`: This is the gauge that is most often used for a given component.
     - `Common Termination`: The type of cable termination found most often for a component
 
+    See the [tips](panel_tips.md) page for a more details explanation.
 ## General Components
 
 ### Hotend
