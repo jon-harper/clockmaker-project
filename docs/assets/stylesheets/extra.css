@@ -91,3 +91,11 @@
 .gslide-title {
     font-family: var(--md-header-font);
 }
+
+.jh-green {
+    color: green;
+}
+
+.jh-red {
+    color: crimson;
+}
