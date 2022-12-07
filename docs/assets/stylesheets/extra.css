@@ -28,6 +28,8 @@
 
 :root {
   --md-code-font: Hack, Monospace;
+  --jh-con-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill-rule='evenodd' d='M1 12C1 5.925 5.925 1 12 1s11 4.925 11 11-4.925 11-11 11S1 18.075 1 12zm8.036-4.024a.75.75 0 0 0-1.06 1.06L10.939 12l-2.963 2.963a.75.75 0 1 0 1.06 1.06L12 13.06l2.963 2.964a.75.75 0 0 0 1.061-1.06L13.061 12l2.963-2.964a.75.75 0 1 0-1.06-1.06L12 10.939 9.036 7.976z'/%3E%3C/svg%3E");
+  --jh-pro-con: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill-rule='evenodd' d='M1 12C1 5.925 5.925 1 12 1s11 4.925 11 11-4.925 11-11 11S1 18.075 1 12zm16.28-2.72a.75.75 0 0 0-1.06-1.06l-5.97 5.97-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l6.5-6.5z'/%3E%3C/svg%3E");
 }
 
 [data-md-color-scheme="slate"] {
@@ -99,3 +101,17 @@
 .jh-red {
     color: crimson;
 }
+
+.jh-proconlist .task-list-item {
+    list-style-type: none !important;
+} 
+ 
+.jh-proconlist .task-list-control input[type="checkbox"] + .task-list-indicator::before {
+    mask-image: var(--jh-con-icon);
+    background-color: #cc2222;
+} 
+
+.jh-proconlist .task-list-control input[type="checkbox"]:checked + .task-list-indicator::before {
+    mask-image: var(--jh-pro-con);
+    background-color: #1EBB52;
+} 

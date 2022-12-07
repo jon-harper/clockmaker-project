@@ -34,6 +34,7 @@ For example, in `MOTZ2`:
 | ABL          | ABL sensor         |
 | BED          | Heated bed         |
 | FAN          | Fan                |
+| FIL          | Filament runout sensor |
 | HOT          | Hotend             |
 | I2C          | I2C bus            |
 | LIM          | Limit switch       |
@@ -88,16 +89,15 @@ Most pin types will have the same wire color: analog signals are yellow, PWM pin
 
 If you do not regularly work with hookup wire, up-gauging to AWG #24 for any smaller gauge is an option to reduce sourcing costs.
 
-:octicons-check-circle-fill-16:{.jh-green} Pro
+##### Pros & Cons
 
-- Saves by buying more of one type of wire.
-- Larger wires can be easier to work with.
-- Reduce number of pins types for some connectors (e.g., Molex Mini Fit family)
-
-:octicons-x-circle-24:{.jh-red} Con
-
-- Increases thickness of wire bundle.
-- Can significantly increase weight of toolhead bundle.
+<div class="jh-proconlist" markdown>
+- [x] Saves by buying more of one type of wire.
+- [x] Larger wires can be easier to work with.
+- [x] Reduce number of pins types for some connectors (e.g., Molex Mini Fit family)
+- [ ] Increases thickness of wire bundle.
+- [ ] Can significantly increase weight of toolhead bundle.
+</div>
 
 ### Panel Mount Connector Patterns
 
@@ -112,16 +112,15 @@ There are two ways of designing of a wiring panel. This guide starts with a one-
 
 These are point-to-point, single component connectors.
 
-:octicons-check-circle-fill-16:{.jh-green} Pro
+##### Pros & Cons
 
-- Simple to design: cables are point-to-point.
-- Cables can be replaced easily.
-
-:octicons-x-circle-24:{.jh-red} Con
-
-- Large number of connectors to connect & disconnect.
-- Messy wire bundles.
-- Significant slack must be left before wrapping bundle.
+<div class="jh-proconlist" markdown>
+- [x] Simple to design: cables are point-to-point.
+- [x] Cables can be replaced easily.
+- [ ] Large number of connectors to connect & disconnect.
+- [ ] Messy wire bundles.
+- [ ] Significant slack must be left before wrapping bundle.
+</div>
 
 #### One-to-Many Panels
 
@@ -132,18 +131,17 @@ These are point-to-point, single component connectors.
 
 A one-to-many panel mount connects multiple components. From the panel, the cable may branch further.
 
-:octicons-check-circle-fill-16:{.jh-green} Pro
+##### Pros & Cons
 
-- Easier to mate and disconnect.
-- Cheaper; fewer connectors to buy.
-- More compact panels.
-- Tighter wiring harnesses.
-
-:octicons-x-circle-24:{.jh-red} Con
-
-- Complex to design and assemble.
-- Unforgiving of mistakes.
-- Difficult or impossible to repair connectors with large numbers of pins.
+<div class="jh-proconlist" markdown>
+- [x] Easier to mate and disconnect.
+- [x] Cheaper/fewer connectors to source.
+- [x] Compact panels.
+- [x] Tight wiring harnesses.
+- [ ] Complex to design and assemble.
+- [ ] Unforgiving of mistakes.
+- [ ] Difficult or impossible to repair connectors with large numbers of pins.
+</div>
 
 ## Further Reading
 
