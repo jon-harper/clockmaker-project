@@ -5,58 +5,73 @@ authors: Jon Harper
 date: 2022-11-29
 ---
 
-!!! warning "Disclaimer"
+--8<-- "include/electrical_disclaimer.md:crimp"
 
-    - This guide is solely to advise designing your own harnesses.
-    - Recommendations are not universal; they are starting points to begin your own efforts.
-    - No information here replaces the advice of a professional.
-    - It does not matter if your harness matches the order or color in the tables, only that your harness is consistent and documented.
-    - Label your wires!
-    - **Test your crimps!**
+??? note "Reading Entries"
+    - `Name`: an abbreviation for what the pin does. This is for identification only.
+    - `Pin #`: order of the pin in the connector.
+    - `Color`: optional color-coding for the wire insulation.
+        - Colors are solely to help visual identification.
+        - Colors do not always match the wire colors that usually tail a component; this is meant to maintain internal consistency.
+    
+    | Color  | Abbreviation      |
+    |--------|:-----------------:|
+    | Black  | K ![black][black] |
+    | Blue   | B :blue_circle:   |
+    | Green  | G :green_circle:  |
+    | Red    | R :red_circle:    |
+    | White  | W ![white][white] |
+    | Yellow | Y :yellow_circle: |
+
+    - `Typical AWG`: This is the gauge that is most often used for a given component.
+    - `Common Termination`: The type of cable termination found most often for a component
 
 ## General Components
 
 ### Hotend
 
-| Name     | Pin #  | Color            |
-|:--------:|:------:|:----------------:|
-| VIN      | 1      | R :red_circle:   |
-| GND      | 2      | K :black_circle: |
+| Name     | Pin #  | Color             |
+|:--------:|:------:|:-----------------:|
+| VIN      | 1      | R :red_circle:    |
+| GND      | 2      | K ![black][black] |
 
 - Typical AWG: 20
-- Recommended Connector: Molex Micro Fit 3
+- Common Termination: screw terminals or Molex Micro Fit 3.
 - Notes:
     - Polarity does not matter.
-    - JST SM is rated to 3 amperes. This may be insufficient after derating for parallel conductors (and ambient temperature for enclosed printers).
+    - Many JST connectors are limited to 3 amperes. This may be insufficient after derating for parallel conductors (and ambient temperature for enclosed printers).
 
 ### Heated Bed
 
-| Name     | Pin #  | Color |
-|:--------:|:------:|:-----:|
-| VIN      | 1      | R :red_circle: |
-| GND      | 2      | K :black_circle: |
+| Name     | Pin #  | Color             |
+|:--------:|:------:|:-----------------:|
+| VIN      | 1      | R :red_circle:    |
+| GND      | 2      | K ![black][black] |
 
 - Typical AWG: none, specific to bed
+- Common Termination: screw terminals, ring connectors
 
 ### Stepper Motors
 
-| Name     | Pin #  | Color |
-|:--------:|:------:|:-----:|
-| 1A       | 1      | R :red_circle: |
-| 1B       | 2      | B :blue_circle: |
-| 2A       | 3      | G :green_circle: |
-| 2B       | 4      | K :black_circle: |
+| Name     | Pin #  | Color             |
+|:--------:|:------:|:-----------------:|
+| 1A       | 1      | R :red_circle:    |
+| 1B       | 2      | B :blue_circle:   |
+| 2A       | 3      | G :green_circle:  |
+| 2B       | 4      | K ![black][black] |
 
 - Typical AWG: 24
-- Common Termination: JST XH 2.54, 2 position
+- Common Termination:
+    - Board: JST XH, 4 position
+    - Component: JST PH, 6 position or bare wire
 - Notes:
     - There is not a standard wire color or pin order for stepper motors.
 
 ### Protective Earth
 
-| Name     | Pin #  | Color |
-|:--------:|:------:|:-----:|
-| PE       | 1      | Y :yellow_circle: / G :green_circle: |
+| Name     | Pin #  | Color             |
+|:--------:|:------:|:-----------------:|
+| PE       | 1      | Y :yellow_circle: / K ![black][black] |
 
 - Typical AWG: none, specific to configuration
 - Recommended Connector: Ring connector
@@ -68,39 +83,39 @@ date: 2022-11-29
 | Name     | Pin #  | Color |
 |:--------:|:------:|:-----:|
 | VIN      | 1      | R :red_circle: |
-| GND      | 2      | K :black_circle: |
+| GND      | 2      | K ![black][black] |
 
 - Typical AWG: 24/28
-- Common Termination: JST XH 2.54, 2 position
+- Common Termination: JST XH, 2 position
 - Notes:
     - 24 awg is easier to crimp; 28 is sufficient.
 
 
 ### Fan (3 Pin)
 
-| Name     | Pin #  | Color |
-|:--------:|:------:|:-----:|
-| VIN      | 1      | R :red_circle: |
-| GND      | 2      | K :black_circle: |
+| Name     | Pin #  | Color             |
+|:--------:|:------:|:-----------------:|
+| VIN      | 1      | R :red_circle:    |
+| GND      | 2      | K ![black][black] |
 | TAC      | 3      | Y :yellow_circle: |
 
 - Typical AWG: 24/28
-- Common Termination: 
+- Common Termination: TODO
 - Notes:
     - 24 awg is easier to crimp; 28 is sufficient.
     - This reverses the typical GND/VIN pin order of most 4-pin fans.
 
 ### Fan (4 Pin)
 
-| Name     | Pin #  | Color |
-|:--------:|:------:|:-----:|
-| VIN      | 1      | R :red_circle: |
-| GND      | 2      | K :black_circle: |
+| Name     | Pin #  | Color             |
+|:--------:|:------:|:-----------------:|
+| VIN      | 1      | R :red_circle:    |
+| GND      | 2      | K ![black][black] |
 | TAC      | 3      | Y :yellow_circle: |
-| PWM      | 4      | G :green_circle: |
+| PWM      | 4      | G :green_circle:  |
 
 - Typical AWG: 24/28
-- Common Termination: 
+- Common Termination: TODO
 - Notes:
     - 24 awg is easier to crimp; 28 is sufficient.
     - This reverses the typical GND/VIN pin order of most 4-pin fans.
@@ -108,30 +123,30 @@ date: 2022-11-29
 
 ## Analog Sensors
 
-Most sensors on a printer send analog signals, from thermistors to ABL sensors. These typically use 2- and 3-conductor connectors.
+Most sensors on a printer send analog signals, from thermistors to ABL sensors. These typically use 2- and 3-position connectors.
 
 ### Unpowered Sensors (2-wire)
 
 Examples of unpowered sensors are mechanical limit switches and thermistors.
 
-| Name     | Pin #  | Color |
-|:--------:|:------:|:-----:|
+| Name     | Pin #  | Color             |
+|:--------:|:------:|:-----------------:|
 | SIG      | 1      | Y :yellow_circle: |
-| GND      | 2      | W :white_circle: / K :black_circle: |
+| GND      | 2      | W ![white][white] / K ![black][black] |
 
 - Typical AWG: 24/28
-- Common Termination: None, though JST XH 2.54 is very common
+- Common Termination: JST XH is frequently used
 - Notes: none
 
 ### Powered Sensors (3-wire)
 
-Examples of powered sensors are optical limit switches and 3-wire magnetic ABL sensors. Some filament runout sensors are also 3-wire.
+Examples of powered sensors are optical limit switches and magnetic ABL sensors. Filament runout sensors may also be 3-wire.
 
-| Name     | Pin #  | Color |
-|:--------:|:------:|:-----:|
+| Name     | Pin #  | Color             |
+|:--------:|:------:|:-----------------:|
 | VIN      | 1      | R :red_circle: / B :blue_circle: |
 | SIG      | 2      | Y :yellow_circle: |
-| GND      | 3      | K :black_circle: / W :white_circle: |
+| GND      | 3      | K ![black][black] / W ![white][white] |
 
 - Typical AWG: 24/28
 - Common Termination: None
@@ -141,30 +156,33 @@ Examples of powered sensors are optical limit switches and 3-wire magnetic ABL s
 
 ### BLTouch
 
-| Name     | Pin #  | Color |
-|:--------:|:------:|:-----:|
+| Name     | Pin #  | Color             |
+|:--------:|:------:|:-----------------:|
 | VIN      | 1      | R :red_circle: / B :blue_circle: |
-| GND      | 2      | K :black_circle: |
-| PWM      | 3      | G :green_circle: |
+| GND      | 2      | K ![black][black] |
+| PWM      | 3      | G :green_circle:  |
 | SIG      | 4      | Y :yellow_circle: |
-| GND      | 4      | W :white_circle: / K :black_circle: |
+| GND      | 4      | W ![white][white] / K ![black][black] |
 
 ### I2C
 
-| Name     | Pin #  | Color |
-|:--------:|:------:|:-----:|
+| Name     | Pin #  | Color             |
+|:--------:|:------:|:-----------------:|
 | VIN      | 1      | R :red_circle: / B :blue_circle: |
-| GND      | 2      | K :black_circle: |
+| GND      | 2      | K ![black][black] |
 | SDA      | 3      | Y :yellow_circle: |
-| SCL      | 4      | G :green_circle: |
+| SCL      | 4      | G :green_circle:  |
 
 ### SPI
 
-| Name     | Pin #  | Color |
-|:--------:|:------:|:-----:|
+| Name     | Pin #  | Color             |
+|:--------:|:------:|:-----------------:|
 | VIN      | 1      | R :red_circle:    |
-| GND      | 2      | K :black_circle:  |
+| GND      | 2      | K ![black][black] |
 | SCLK     | 3      | G :green_circle:  |
 | CS       | 4      | B :blue_circle:   |
 | MOSI     | 5      | Y :yellow_circle: |
-| MISO     | 6      | W :white_circle:  |
+| MISO     | 6      | W ![white][white] |
+
+[black]: ../img/black_circle.png
+[white]: ../img/white_circle.png

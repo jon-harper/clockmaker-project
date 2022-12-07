@@ -4,6 +4,7 @@ summary: Common terms related to wiring, connectors, and wiring harnesses.
 authors: Jon Harper
 date: 2022-12-05
 ---
+
 <!--
 #### Template
 :   Definition

@@ -1,5 +1,5 @@
 ---
-title: Common Connectors
+title: Connector Reference
 summary: Properties of common types of connectors.
 authors: Jon Harper
 date: 2022-12-02
@@ -12,21 +12,33 @@ date: 2022-12-02
     - Resistance
     - Temperature rise & operating temperature
 - Physical properties
-    - Connection/disconnection force
+    - Mating force
     - Locking/latching method
-    - Uses (board, inline, panel mount)
+    - Uses (board, free hanging, panel mount)
     - Pin sizes/compatible wire gauges
-    - Overall size
+    - Overall connector size
 - Other Considerations
     - Cost
     - Availability
 
+
+!!! note
+    Most entries contain a line labeled "application". This will be at least one of three values:
+
+    - Board
+    - Free hanging
+    - Panel mount
+
+    Board connectors have one connector design for a board and mating connector for the wire.
+
+    Free hanging connectors mate two two cables together. Panel mount connectors are a type of free hanging connector that can also be attached to a panel (usually by snapping in place with a pair of "ears").
+    
 <!-- 
 ### Title
 
 Common uses:
 
-**Summary**
+**Specifications**
 
 - Pitch: 
 - Max Current Rating: 
@@ -48,19 +60,18 @@ Common uses:
 
 ### JST PH
 
-6-position PH connectors are common on NEMA 17 stepper motors.
+These have wide application as a compact connector for PCBs when space is at a premium. NEMA 17 steppers often use this connector.
 
-**Summary**
+The small pitch can make these difficult to crimp.
+
+**Specifications**
 
 - Pitch: 2.0mm
-- Current Rating: 2.0A @ 24 awg
-- Wire Gauges: 24 - 32 awg
+- Current Rating: 2.0A / #24 AWG
+- Wire Gauges: #24 - #32 AWG
 - Applications: board only
 - Available Positions:
-    - Single Row: 2-
-    - Dual Row: 
-- Common uses: These have wide application as a compact connector for PCBs when space is at a premium.
-- Notes: The small pitch can make these difficult to crimp.
+    - Single Row: 2-16
 
 **Links**
 
@@ -72,12 +83,12 @@ Common uses:
 
 These are sometimes called JST SYP, though JST lists the product as RCY series. RCY connectors are used in 3D printing to extend wire pairs (or make them disconnectable) as an inline alternative to XH or PH connectors. RCY are also physically smaller in size than SM.
 
-**Summary**
+**Specifications**
 
 - Pitch: 2.5mm
-- Max Current Rating: 3.0A @ 22 awg (2.0A @ 24 awg)
-- Wire Gauges: 22-28 awg
-- Applications: inline only
+- Max Current Rating: 3.0A / AWG #22 (2.0A / AWG #24)
+- Wire Gauges: AWG #22-#28
+- Applications: 
 - Available Positions: 2
 - Common uses: remote-controlled cars and airplanes.
 - Notes: usually red or black. Sometimes found in 2.54mm pitch.
@@ -92,12 +103,12 @@ These are sometimes called JST SYP, though JST lists the product as RCY series. 
 
 Although these connectors are only for wire-to-wire connections, they are easy to crimp and can be panel mounted. A downside to SM connectors is the size of the shell.
 
-**Summary**
+**Specifications**
 
 - Pitch: 2.5mm
-- Max Current Rating: 3.0A @ 22 awg
-- Wire Gauges: 22 - 28 awg
-- Applications: inline, panel mount
+- Max Current Rating: 3.0A / AWG #22
+- Wire Gauges: AWG #22 - #28
+- Applications: free hanging, panel mount
 - Available Positions:
     - Single Row: 2-12 position
     - Dual Row: 18 position
@@ -114,13 +125,13 @@ Although these connectors are only for wire-to-wire connections, they are easy t
 
 ### JST XH 2.5
 
-Common uses: most common connector for 3D printers (e.g., most boards-side connectors & limit switches)
+This is the most common connector for 3D printers (e.g., most boards-side connectors & limit switches)
 
-**Summary**
+**Specifications**
 
 - Pitch: 2.5mm
-- Current Rating: 3.0A @ 22 awg
-- Wire Gauges: 22 - 30 awg
+- Current Rating: 3.0A / AWG #22
+- Wire Gauges: AWG #22 - #30
 - Applications: board only
 - Available Positions:
     - Single Row: 2-16 position & 20 position
@@ -133,16 +144,14 @@ Common uses: most common connector for 3D printers (e.g., most boards-side conne
 
 ### Molex Micro Fit 3.0
 
-Perfect but for the price.
+Perfect but for the price. Found on 3D printers, particularly as hotend connectors.
 
-Common uses: 3D printers, particularly for high temperature and high-current applications.
-
-**Summary**
+**Specifications**
 
 - Pitch: 3.0mm
 - Max Current Rating: up to 8.5A
-- Wire Gauges: 18 - 24, 26 - 30 awg (two pin sizes)
-- Applications: board, inline, panel mount
+- Wire Gauges: AWG #18 - #24, #26 - #30 (two pin sizes)
+- Applications: board, free hanging, panel mount
 - Available Positions:
     - Single Row: 2-11 position
     - Dual Row: 2-24 position
@@ -155,14 +164,16 @@ Common uses: 3D printers, particularly for high temperature and high-current app
 
 ### Molex Mini Fit Jr
 
-Common uses: ATX connectors in computers
+This is the familiar ATX connector used in computers for motherboard and video card power.
 
-**Summary**
+This connector may have application for heated beds (using two or more parallel circuits).
+
+**Specifications**
 
 - Pitch: 4.2mm
 - Max Current Rating: 9A
-- Wire Gauges: 18 - 24, 24 - 28 awg (two pin sizes)
-- Applications: board, inline, panel mount
+- Wire Gauges: AWG #18 - #24, #24 - #28 (two pin sizes)
+- Applications: board, free hanging, panel mount
 - Available Positions:
     - Single Row: 2-6 position
     - Dual Row: 2-24 position
@@ -195,17 +206,17 @@ Generally speaking, closed barrel connectors do not use pins and thus are single
 
 ### Harwin M20 / "DuPont"
 
-**FAQ Explanations**
+These are very simple, common connectors for bare 0.1" headers. They are not latching or locking and should be avoided (or used with hot glue for retention)
 
-1. [Why are these called DuPont connectors?][dupont_name]
-2. [Why are these so hard to crimp?][dupont_crimp]
+1. [Why are they called DuPont connectors?][dupont_name]
+2. [Why are they so hard to crimp?][dupont_crimp]
 
-**Summary**
+**Specifications**
 
 - Pitch: 2.54mm
 - Max Current Rating: 3A
-- Wire Gauges: 22-30 awg
-- Panel Mount: No
+- Wire Gauges: AWG #22-#30
+- Applications: board only
 - Available Positions:
     - Single Row: 2-12 position
     - Dual Row: 4-24 position
@@ -223,13 +234,29 @@ Generally speaking, closed barrel connectors do not use pins and thus are single
 ### DSUB
 
 !!! todo "TODO: Expand"
+
+## Low-Voltage, Low-Current Connectors
 ### IDC Ribbon
 
-IDC stands for Insulation-displacement contact. These are meant for low-voltage, low-current applications, particularly digital signaling. They are most frequently found on LCD 3D printer displays.
+IDC stands for insulation-displacement contact. These are meant for low-voltage, low-current applications, particularly digital signaling. They are most frequently found on LCD 3D printer displays.
+
+These connectors are not meant for frequent mating and removal. They should be avoided where possible.
+
+### RJ-45
+
+RJ-45 is the specification for the connector that terminates Ethernet cables, often generically referred to as Cat5 or Cat6 cables. RJ-45 connectors are not suitable for applications with more than a few hundred milliamps of current.
+
+:octicons-check-circle-fill-16:{.jh-green} Pro
+
+- Readily available
+- Inexpensive
+
+:octicons-x-circle-24:{.jh-red} Con
+
+- Large connector
+- Low current rating
 
 !!! todo "TODO: Expand"
-
-[tips]:             https://falconerelectronics.com/wire-harness-manufacturing/
 
 [ds_molex_mf3]:     ../assets/datasheets/molex_mf3.pdf
 [ds_molex_mfjr]:    ../assets/datasheets/molex_mfjr.pdf
