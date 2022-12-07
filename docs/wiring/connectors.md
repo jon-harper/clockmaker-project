@@ -4,6 +4,9 @@ summary: Properties of common types of connectors.
 authors: Jon Harper
 date: 2022-12-02
 ---
+
+This page is a list of connectors. Most are commonly encountered when working with 3D printers; some may only be of interest if fabricating a wiring harness.
+
 ## Basic Considerations
 
 - Electrical properties
@@ -19,7 +22,6 @@ date: 2022-12-02
 - Other Considerations
     - Cost
     - Availability
-
 
 !!! note
     Most entries contain a line labeled "application". This will be at least one of three values:
@@ -80,14 +82,28 @@ These are very simple, common connectors for bare 0.1" headers. They are not lat
 </div></div>
 <div markdown><div markdown>
 
+**Pros and Cons**
+
+<div class="jh-proconlist" markdown>
+- [x] Mates easily with headers.
+- [x] Good for temporary connections.
+- [ ] No latch or lock mechanism.
+- [ ] Can be difficult to crimp.
+</div>
+
+</div></div>
+<div markdown><div markdown>
+
 **Links**
 
 [:material-order-alphabetical-ascending: Datasheet][ds_harwin_m20]{ .md-button }
 
-[:simple-amazon: Amazon Kit][az_harwin_m20]{ .md-button } 
+[:simple-amazon: Assorted Single Row Kit][az_harwin_m20]{ .md-button } 
 
 </div></div>
 </div>
+
+------
 
 ### JST PH
 
@@ -110,14 +126,28 @@ The small pitch can make these difficult to crimp.
 </div></div>
 <div markdown><div markdown>
 
+**Pros and Cons**
+
+<div class="jh-proconlist" markdown>
+- [x] Inexpensive
+- [x] Very compact
+- [ ] Low mating cycle rating
+- [ ] Can be difficult to crimp
+</div>
+
+</div></div>
+<div markdown><div markdown>
+
 **Links**
 
 [:material-order-alphabetical-ascending: Datasheet][ds_jst_ph]{ .md-button }
 
-[:simple-amazon: Amazon 2-6 Position Kit][az_jst_ph]{ .md-button } 
+[:simple-amazon: 2-6 Position Kit][az_jst_ph]{ .md-button } 
 
 </div></div>
 </div>
+
+------
 
 ### JST RCY
 
@@ -131,10 +161,21 @@ These are sometimes called JST SYP, though JST lists the product as RCY series. 
 - Pitch: 2.5mm
 - Max Current Rating: 3.0A / AWG #22 (2.0A / AWG #24)
 - Wire Gauges: AWG #22-#28
-- Applications: 
+- Applications: inline only
 - Available Positions: 2
 - Common uses: remote-controlled cars and airplanes.
 - Notes: usually red or black. Sometimes found in 2.54mm pitch.
+
+</div></div>
+<div markdown><div markdown>
+**Pros and Cons**
+
+<div class="jh-proconlist" markdown>
+- [x] Inexpensive
+- [x] Useful for splicing
+- [ ] Low mating cycle rating
+- [ ] 2-position only
+</div>
 
 </div></div>
 <div markdown><div markdown>
@@ -143,10 +184,12 @@ These are sometimes called JST SYP, though JST lists the product as RCY series. 
 
 [:material-order-alphabetical-ascending: Datasheet][ds_jst_rcy]{ .md-button }
 
-[:simple-amazon: Amazon Kit][az_jst_rcy]{ .md-button } 
+[:simple-amazon: 2 Position Kit][az_jst_rcy]{ .md-button } 
 
 </div></div>
 </div>
+
+------
 
 ### JST SH
 
@@ -166,15 +209,26 @@ This connector is most familiar to BLTouch users with the 5-position female conn
 
 </div></div>
 <div markdown><div markdown>
+**Pros and Cons**
+
+<div class="jh-proconlist" markdown>
+- [x] Extremely compact
+- [ ] Nearly impossible to crimp at home
+</div>
+
+</div></div>
+<div markdown><div markdown>
 
 **Links**
 
 [:material-order-alphabetical-ascending: Datasheet][ds_jst_sh]{ .md-button }
 
-[:simple-amazon: Amazon 2-6 Position Kit][az_jst_sh]{ .md-button } 
+[:simple-amazon: 5 Position Kit][az_jst_sh]{ .md-button } 
 
 </div></div>
 </div>
+
+------
 
 ### JST SM
 
@@ -198,16 +252,32 @@ Although these connectors are only for wire-to-wire connections, they are easy t
 </div></div>
 <div markdown><div markdown>
 
+**Pros and Cons**
+
+<div class="jh-proconlist" markdown>
+- [x] Easy to crimp
+- [x] Simple, large latching mechanism
+- [x] Panel mounts
+- [ ] Bulky connector housing
+- [ ] Pins are mechanically weak and prone to bending
+- [ ] Not rated for frequent disconnection
+</div>
+
+</div></div>
+<div markdown><div markdown>
+
 **Links**
 
 [:material-order-alphabetical-ascending: Datasheet][ds_jst_sm]{ .md-button }
 
-[:simple-amazon: Amazon 2-5 Position Kit][az_jst_sm_small]{ .md-button } 
+[:simple-amazon: 2-5 Position Kit][az_jst_sm_small]{ .md-button } 
 
-[:simple-amazon: Amazon 2-9 Position Kit][az_jst_sm_full]{ .md-button } 
+[:simple-amazon: 2-9 Position Kit][az_jst_sm_full]{ .md-button } 
 
 </div></div>
 </div>
+
+------
 
 ### JST XH
 
@@ -228,14 +298,28 @@ This is the most common connector for 3D printers (e.g., most board-side connect
 </div></div>
 <div markdown><div markdown>
 
+**Pros and Cons**
+
+<div class="jh-proconlist" markdown>
+- [x] Easy to crimp larger gauges
+- [x] Very common and inexpensive
+- [ ] Not rated for more than a few mating cycles
+- [ ] Difficult to crimp smaller gauge wires
+</div>
+
+</div></div>
+<div markdown><div markdown>
+
 **Links**
 
 [:material-order-alphabetical-ascending: Datasheet][ds_jst_xh]{ .md-button }
 
-[:simple-amazon: Amazon 2-5 Position Kit][az_jst_xh]{ .md-button } 
+[:simple-amazon: 2-5 Position Kit][az_jst_xh]{ .md-button } 
 
 </div></div>
 </div>
+
+------
 
 ### Molex Micro Fit 3.0
 
@@ -257,14 +341,32 @@ Perfect but for the price. Found on 3D printers, particularly as hotend connecto
 </div></div>
 <div markdown><div markdown>
 
+**Pros and Cons**
+
+<div class="jh-proconlist" markdown>
+- [x] Easy to crimp
+- [x] Reliable latching mechanism
+- [x] Board, inline, and panel mounted
+- [x] Relatively high current rating
+- [x] High temperature rating
+- [ ] Expensive
+- [ ] Can be hard to source
+- [ ] Connectors larger than 16 position are hard to remove
+</div>
+
+</div></div>
+<div markdown><div markdown>
+
 **Links**
 
 [:material-order-alphabetical-ascending: Datasheet][ds_molex_mf3]{ .md-button }
 
-[:simple-digikeyelectronics: Digikey][dk_molex_mf3]{ .md-button } 
+[:simple-digikeyelectronics: 2-6 Position Kit][dk_molex_mf3]{ .md-button } 
 
 </div></div>
 </div>
+
+------
 
 ### Molex Mini Fit Jr
 
@@ -288,14 +390,69 @@ This connector may have application for heated beds (using two or more parallel 
 </div></div>
 <div markdown><div markdown>
 
+**Pros and Cons**
+
+<div class="jh-proconlist" markdown>
+- [x] Large, reliable latch
+- [x] Panel mounts
+- [ ] Large connector housing
+- [ ] Expensive
+- [ ] Can be hard to source
+</div>
+
+</div></div>
+<div markdown><div markdown>
+
 **Links**
 
 [:material-order-alphabetical-ascending: Datasheet][ds_molex_mfjr]{ .md-button }
 
-[:simple-digikeyelectronics: Digikey][dk_molex_mfjr]{ .md-button } 
+[:simple-digikeyelectronics: Dual Row 2-20 Position Kit][dk_molex_mfjr]{ .md-button } 
 
 </div></div>
 </div>
+
+------
+
+### XT60
+
+Unlike most pin and socket connectors in this list, wires are soldered in place for XT60 connectors. These are an inexpensive solution for high current applications (such as powering a heated bed).
+
+<div class="nt-cards nt-grid cols-2" markdown>
+<div markdown><div markdown>
+
+**Specifications**
+
+- Max Current Rating: 30A (60A instantaneous)
+- Wire Gauges: AWG #12
+- Applications: free hanging, panel mount
+- Available Positions: 2 position
+- Common uses: RC car batteries
+
+</div></div>
+<div markdown><div markdown>
+
+**Pros and Cons**
+
+<div class="jh-proconlist" markdown>
+- [x] Inexpensive
+- [x] High current rating
+- [x] Panel mounts
+- [ ] Requires soldering
+</div>
+
+</div></div>
+<div markdown><div markdown>
+
+**Links**
+
+[:material-order-alphabetical-ascending: Datasheet][ds_xt60]{ .md-button }
+
+[:simple-sparkfun: SparkFun Connector Pair][sf_xt60]{ .md-button } 
+
+</div></div>
+</div>
+
 
 ## Closed Barrel Connectors
 
@@ -335,13 +492,14 @@ These connectors are not meant for frequent mating and removal. They should be a
 
 RJ-45 is the specification for the connector that terminates Ethernet cables, often generically referred to as Cat5 or Cat6 cables. RJ-45 connectors are not suitable for applications with more than a few hundred milliamps of current.
 
-Pros and Cons:
+**Pros and Cons**
 
 <div markdown class="jh-proconlist">
 - [x] Readily available
 - [x] Inexpensive
-- [ ] Large connector
-- [ ] Low current rating
+- [x] Latching
+- [ ] Large connector housing and mating terminal
+- [ ] Very low current rating
 </div>
 
 !!! todo "TODO: Expand"
@@ -354,3 +512,4 @@ Pros and Cons:
 [ds_jst_rcy]:       ../assets/datasheets/jst_rcy.pdf
 [ds_harwin_m20]:    ../assets//datasheets/harwin_m20.pdf
 [ds_jst_sh]:        ../assets/datasheets/jst_sh.pdf
+[ds_xt60]:          ../assets/datasheets/xt60.pdf

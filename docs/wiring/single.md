@@ -63,7 +63,7 @@ date: 2022-11-29
 
 | Name     | Pin #  | Color             |
 |:--------:|:------:|:-----------------:|
-| PE       | 1      | Y :yellow_circle: / K ![black][black] |
+| PE       | 1      | G :green_circle: / K ![black][black] |
 
 - Typical AWG: none, specific to configuration
 - Recommended Connector: Ring connector
