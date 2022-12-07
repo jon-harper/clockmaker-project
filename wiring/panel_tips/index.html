@@ -1,0 +1,1325 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation for The Clockmaker Project.">
+      
+      
+        <meta name="author" content="Jon Harper">
+      
+      
+        <link rel="canonical" href="https://jon-harper.github.io/clockmaker-project/wiring/panel_tips/">
+      
+      <link rel="icon" href="../../img/logo3.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Panel Mount & Harness Tips - The Clockmaker Project</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.975780f9.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.2505c338.min.css">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto Sans";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/neoteroi.css">
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="amber">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#reading-pin-order-entries" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="The Clockmaker Project" class="md-header__button md-logo" aria-label="The Clockmaker Project" data-md-component="logo">
+      
+  <img src="../../img/logo3.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            The Clockmaker Project
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Panel Mount & Harness Tips
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="amber"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 6a6 6 0 0 1 6 6c0 2.22-1.21 4.16-3 5.2V19a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-1.8c-1.79-1.04-3-2.98-3-5.2a6 6 0 0 1 6-6m2 15v1a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-1h4m6-10h3v2h-3v-2M1 11h3v2H1v-2M13 1v3h-2V1h2M4.92 3.5l2.13 2.14-1.42 1.41L3.5 4.93 4.92 3.5m12.03 2.13 2.12-2.13 1.43 1.43-2.13 2.12-1.42-1.42Z"/></svg>
+            </label>
+          
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="amber" data-md-color-accent="blue-grey"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C9.76 2 7.78 3.05 6.5 4.68l1.43 1.43C8.84 4.84 10.32 4 12 4a5 5 0 0 1 5 5c0 1.68-.84 3.16-2.11 4.06l1.42 1.44C17.94 13.21 19 11.24 19 9a7 7 0 0 0-7-7M3.28 4 2 5.27 5.04 8.3C5 8.53 5 8.76 5 9c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h5.73l4 4L20 20.72 3.28 4m3.95 6.5 5.5 5.5H10v-2.42a5.004 5.004 0 0 1-2.77-3.08M9 20v1a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/jon-harper/clockmaker-project" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    jon-harper/clockmaker-project
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="The Clockmaker Project" class="md-nav__button md-logo" aria-label="The Clockmaker Project" data-md-component="logo">
+      
+  <img src="../../img/logo3.png" alt="logo">
+
+    </a>
+    The Clockmaker Project
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/jon-harper/clockmaker-project" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    jon-harper/clockmaker-project
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Welcome
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Tools & Resources
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Tools & Resources" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Tools & Resources
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Ventilation & Filtration
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Ventilation & Filtration" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Ventilation & Filtration
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../air/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Enclosure Materials
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Enclosure Materials" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Enclosure Materials
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../materials/" class="md-nav__link">
+        Materials Overview
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Electrical
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Electrical" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Electrical
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        Electrical Considerations
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2" type="checkbox" id="__nav_5_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_2">
+          Wiring Harnesses & Panel Mounts
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Wiring Harnesses & Panel Mounts" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_2">
+          <span class="md-nav__icon md-icon"></span>
+          Wiring Harnesses & Panel Mounts
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Panel Mount & Harness Tips
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Panel Mount & Harness Tips
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#reading-pin-order-entries" class="md-nav__link">
+    Reading Pin Order Entries
+  </a>
+  
+    <nav class="md-nav" aria-label="Reading Pin Order Entries">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#entry-abbreviations" class="md-nav__link">
+    Entry Abbreviations
+  </a>
+  
+    <nav class="md-nav" aria-label="Entry Abbreviations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#component-names" class="md-nav__link">
+    Component Names
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#positions-steppers-and-limit-switches" class="md-nav__link">
+    Positions: Steppers and Limit Switches
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#positions-fans-lights-and-thermistors" class="md-nav__link">
+    Positions: Fans, Lights, and Thermistors
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wire-colors" class="md-nav__link">
+    Wire Colors
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#secondary-colors" class="md-nav__link">
+    Secondary Colors
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#considerations" class="md-nav__link">
+    Considerations
+  </a>
+  
+    <nav class="md-nav" aria-label="Considerations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wire-gauges" class="md-nav__link">
+    Wire Gauges
+  </a>
+  
+    <nav class="md-nav" aria-label="Wire Gauges">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pros-cons" class="md-nav__link">
+    Pros &amp; Cons
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#panel-mount-connector-patterns" class="md-nav__link">
+    Panel Mount Connector Patterns
+  </a>
+  
+    <nav class="md-nav" aria-label="Panel Mount Connector Patterns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#one-to-one-panels" class="md-nav__link">
+    One-to-One Panels
+  </a>
+  
+    <nav class="md-nav" aria-label="One-to-One Panels">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pros-cons_1" class="md-nav__link">
+    Pros &amp; Cons
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#one-to-many-panels" class="md-nav__link">
+    One-to-Many Panels
+  </a>
+  
+    <nav class="md-nav" aria-label="One-to-Many Panels">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pros-cons_2" class="md-nav__link">
+    Pros &amp; Cons
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#further-reading" class="md-nav__link">
+    Further Reading
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../single/" class="md-nav__link">
+        Single Components
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../multi/" class="md-nav__link">
+        Segmented Connectors
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3" type="checkbox" id="__nav_5_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_3">
+          Reference
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Reference" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_3">
+          <span class="md-nav__icon md-icon"></span>
+          Reference
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../connectors/" class="md-nav__link">
+        Connector Reference
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../terms/" class="md-nav__link">
+        Connector Definitions
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#reading-pin-order-entries" class="md-nav__link">
+    Reading Pin Order Entries
+  </a>
+  
+    <nav class="md-nav" aria-label="Reading Pin Order Entries">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#entry-abbreviations" class="md-nav__link">
+    Entry Abbreviations
+  </a>
+  
+    <nav class="md-nav" aria-label="Entry Abbreviations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#component-names" class="md-nav__link">
+    Component Names
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#positions-steppers-and-limit-switches" class="md-nav__link">
+    Positions: Steppers and Limit Switches
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#positions-fans-lights-and-thermistors" class="md-nav__link">
+    Positions: Fans, Lights, and Thermistors
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wire-colors" class="md-nav__link">
+    Wire Colors
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#secondary-colors" class="md-nav__link">
+    Secondary Colors
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#considerations" class="md-nav__link">
+    Considerations
+  </a>
+  
+    <nav class="md-nav" aria-label="Considerations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wire-gauges" class="md-nav__link">
+    Wire Gauges
+  </a>
+  
+    <nav class="md-nav" aria-label="Wire Gauges">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pros-cons" class="md-nav__link">
+    Pros &amp; Cons
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#panel-mount-connector-patterns" class="md-nav__link">
+    Panel Mount Connector Patterns
+  </a>
+  
+    <nav class="md-nav" aria-label="Panel Mount Connector Patterns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#one-to-one-panels" class="md-nav__link">
+    One-to-One Panels
+  </a>
+  
+    <nav class="md-nav" aria-label="One-to-One Panels">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pros-cons_1" class="md-nav__link">
+    Pros &amp; Cons
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#one-to-many-panels" class="md-nav__link">
+    One-to-Many Panels
+  </a>
+  
+    <nav class="md-nav" aria-label="One-to-Many Panels">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pros-cons_2" class="md-nav__link">
+    Pros &amp; Cons
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#further-reading" class="md-nav__link">
+    Further Reading
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Panel Mount & Harness Tips</h1>
+
+<div class="admonition warning">
+<p class="admonition-title">Disclaimer</p>
+<ul>
+<li>Recommendations are not universal; they are starting points to begin your own efforts.</li>
+<li>No information here replaces the advice of a professional.</li>
+<li>Document, label, and test your wiring harnesses!</li>
+<li><strong>Test your crimps!</strong></li>
+</ul>
+</div>
+<h2 id="reading-pin-order-entries">Reading Pin Order Entries</h2>
+<p>Each pin order table has three columns:</p>
+<ul>
+<li><code>Name</code>: an abbreviation for what the pin does. This is for identification only.</li>
+<li><code>Pin #</code>: order of the pin in the connector.</li>
+<li><code>Color</code>: optional color-coding for the conducting wire. <ul>
+<li>Colors do not always match the wire colors that usually tail a component; this is meant to maintain internal consistency.</li>
+<li>Colors are solely to help visual identification.</li>
+</ul>
+</li>
+</ul>
+<h3 id="entry-abbreviations">Entry Abbreviations</h3>
+<p>Abbreviations for components have three parts: <code>[Type][Position][#]</code>.</p>
+<p>For example, in <code>MOTZ2</code>:</p>
+<ul>
+<li><code>MOT</code> is motor;</li>
+<li><code>Z</code> is the axis; and</li>
+<li><code>2</code> refers to the second stepper.</li>
+</ul>
+<h4 id="component-names">Component Names</h4>
+<table>
+<thead>
+<tr>
+<th>Abbreviation</th>
+<th>Component</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ABL</td>
+<td>ABL sensor</td>
+</tr>
+<tr>
+<td>BED</td>
+<td>Heated bed</td>
+</tr>
+<tr>
+<td>FAN</td>
+<td>Fan</td>
+</tr>
+<tr>
+<td>FIL</td>
+<td>Filament runout sensor</td>
+</tr>
+<tr>
+<td>HOT</td>
+<td>Hotend</td>
+</tr>
+<tr>
+<td>I2C</td>
+<td>I2C bus</td>
+</tr>
+<tr>
+<td>LIM</td>
+<td>Limit switch</td>
+</tr>
+<tr>
+<td>LGT</td>
+<td>Light (not RGB)</td>
+</tr>
+<tr>
+<td>MOT</td>
+<td>Stepper motor</td>
+</tr>
+<tr>
+<td>PE</td>
+<td>Protective earth</td>
+</tr>
+<tr>
+<td>RGB</td>
+<td>RGB LEDs</td>
+</tr>
+<tr>
+<td>SPI</td>
+<td>SPI bus</td>
+</tr>
+<tr>
+<td>TH</td>
+<td>Thermistor</td>
+</tr>
+</tbody>
+</table>
+<h4 id="positions-steppers-and-limit-switches">Positions: Steppers and Limit Switches</h4>
+<table>
+<thead>
+<tr>
+<th>Abbreviation</th>
+<th>Position</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>X</td>
+<td>X axis</td>
+</tr>
+<tr>
+<td>Y</td>
+<td>Y axis</td>
+</tr>
+<tr>
+<td>Z</td>
+<td>Z axis</td>
+</tr>
+</tbody>
+</table>
+<h4 id="positions-fans-lights-and-thermistors">Positions: Fans, Lights, and Thermistors</h4>
+<table>
+<thead>
+<tr>
+<th>Abbreviation</th>
+<th>Position</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H</td>
+<td>Hotend/toolhead</td>
+</tr>
+<tr>
+<td>E</td>
+<td>Electronics enclosure</td>
+</tr>
+<tr>
+<td>C</td>
+<td>Chamber/printer enclosure</td>
+</tr>
+</tbody>
+</table>
+<h3 id="wire-colors">Wire Colors</h3>
+<p>Six (6) color sets of hookup wire often come with the same color combinations. We use this palette throughout, along with the following abbreviations:</p>
+<table>
+<thead>
+<tr>
+<th>Color</th>
+<th align="center">Abbreviation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Black</td>
+<td align="center">K <img alt="black" src="../../img/black_circle.png" /></td>
+</tr>
+<tr>
+<td>Blue</td>
+<td align="center">B <img alt="🔵" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f535.svg" title=":blue_circle:" /></td>
+</tr>
+<tr>
+<td>Green</td>
+<td align="center">G <img alt="🟢" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f7e2.svg" title=":green_circle:" /></td>
+</tr>
+<tr>
+<td>Red</td>
+<td align="center">R <img alt="🔴" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f534.svg" title=":red_circle:" /></td>
+</tr>
+<tr>
+<td>White</td>
+<td align="center">W <img alt="white" src="../../img/white_circle.png" /></td>
+</tr>
+<tr>
+<td>Yellow</td>
+<td align="center">Y <img alt="🟡" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f7e1.svg" title=":yellow_circle:" /></td>
+</tr>
+</tbody>
+</table>
+<h3 id="secondary-colors">Secondary Colors</h3>
+<p>Most pin types will have the same wire color: analog signals are yellow, PWM pins are green.</p>
+<p><code>GND</code> and <code>VIN</code> are black and red, respectively. To help balance the lengths of color used in a harness, some pins list a secondary color.</p>
+<ul>
+<li>3.3-volt and 5-volt VIN pins have blue as a secondary color where enough colors are available.</li>
+<li>GND pins that are drains for analog signal pins have white as a secondary color.</li>
+</ul>
+<h2 id="considerations">Considerations</h2>
+<h3 id="wire-gauges">Wire Gauges</h3>
+<p>If you do not regularly work with hookup wire, up-gauging to AWG #24 for any smaller gauge is an option to reduce sourcing costs.</p>
+<h5 id="pros-cons">Pros &amp; Cons</h5>
+<div class="jh-proconlist">
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Saves by buying more of one type of wire.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Larger wires can be easier to work with.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Reduce number of pins types for some connectors (e.g., Molex Mini Fit family)</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Increases thickness of wire bundle.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Can significantly increase weight of toolhead bundle.</li>
+</ul>
+</div>
+<h3 id="panel-mount-connector-patterns">Panel Mount Connector Patterns</h3>
+<p>There are two ways of designing of a wiring panel. This guide starts with a one-to-one pattern, then uses this build larger cable segments in a one-to-many pattern.</p>
+<h4 id="one-to-one-panels">One-to-One Panels</h4>
+<figure>
+<p><a href="../../img/wiring/single_panel.jpg"><img alt="Example of a one-to-one panel" src="../../img/wiring/single_panel.jpg" width="480" /></a>
+  </p>
+<figcaption>Each component of the printer has an individual connector on the panel.</figcaption>
+</figure>
+<p>These are point-to-point, single component connectors.</p>
+<h5 id="pros-cons_1">Pros &amp; Cons</h5>
+<div class="jh-proconlist">
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Simple to design: cables are point-to-point.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Cables can be replaced easily.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Large number of connectors to connect &amp; disconnect.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Messy wire bundles.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Significant slack must be left before wrapping bundle.</li>
+</ul>
+</div>
+<h4 id="one-to-many-panels">One-to-Many Panels</h4>
+<figure>
+<p><a href="../../img/wiring/multi_panel.jpg"><img alt="Example of a one-to-many panel" src="../../img/wiring/multi_panel.jpg" width="480" /></a>
+  </p>
+<figcaption>Grouping components into one connector greatly reduces the nubmer of cables and simplifies servicing.</figcaption>
+</figure>
+<p>A one-to-many panel mount connects multiple components. From the panel, the cable may branch further.</p>
+<h5 id="pros-cons_2">Pros &amp; Cons</h5>
+<div class="jh-proconlist">
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Easier to mate and disconnect.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Cheaper/fewer connectors to source.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Compact panels.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Tight wiring harnesses.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Complex to design and assemble.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Unforgiving of mistakes.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Difficult or impossible to repair connectors with large numbers of pins.</li>
+</ul>
+</div>
+<h2 id="further-reading">Further Reading</h2>
+<ul>
+<li><a href="https://falconerelectronics.com/wire-harness-manufacturing/">Falconer Electronics: Wire Harness Manufacturing Terms, Tools, and Tips of the Trade</a></li>
+<li><a href="../../assets/reading/qual_crimp.pdf">Molex: Quality Crimping Handbook</a></li>
+</ul>
+<!-- connectors -->
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Electrical Considerations" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Electrical Considerations
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../single/" class="md-footer__link md-footer__link--next" aria-label="Next: Single Components" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Single Components
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2022 Jonathan Harper
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    <a href="https://www.reddit.com/user/jonspaceharper" target="_blank" rel="noopener" title="u/jonspaceharper on Reddit" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M201.5 305.5c-13.8 0-24.9-11.1-24.9-24.6 0-13.8 11.1-24.9 24.9-24.9 13.6 0 24.6 11.1 24.6 24.9 0 13.6-11.1 24.6-24.6 24.6zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-132.3-41.2c-9.4 0-17.7 3.9-23.8 10-22.4-15.5-52.6-25.5-86.1-26.6l17.4-78.3 55.4 12.5c0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.3 24.9-24.9s-11.1-24.9-24.9-24.9c-9.7 0-18 5.8-22.1 13.8l-61.2-13.6c-3-.8-6.1 1.4-6.9 4.4l-19.1 86.4c-33.2 1.4-63.1 11.3-85.5 26.8-6.1-6.4-14.7-10.2-24.1-10.2-34.9 0-46.3 46.9-14.4 62.8-1.1 5-1.7 10.2-1.7 15.5 0 52.6 59.2 95.2 132 95.2 73.1 0 132.3-42.6 132.3-95.2 0-5.3-.6-10.8-1.9-15.8 31.3-16 19.8-62.5-14.9-62.5zM302.8 331c-18.2 18.2-76.1 17.9-93.6 0-2.2-2.2-6.1-2.2-8.3 0-2.5 2.5-2.5 6.4 0 8.6 22.8 22.8 87.3 22.8 110.2 0 2.5-2.2 2.5-6.1 0-8.6-2.2-2.2-6.1-2.2-8.3 0zm7.7-75c-13.6 0-24.6 11.1-24.6 24.9 0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.1 24.9-24.6 0-13.8-11-24.9-24.9-24.9z"/></svg>
+    </a>
+  
+    
+    
+    <a href="https://mastodon.online/@jonspaceharper" target="_blank" rel="noopener" title="Mastodon: jonspaceharper@mastodon.online" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 0 0 .023-.043v-1.809a.052.052 0 0 0-.02-.041.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/></svg>
+    </a>
+  
+    
+    
+    <a href="https://post.news/jonspaceharper" target="_blank" rel="noopener" title="Post.news: jonspaceharper" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M456 32H152c-30.9 0-56 25.13-56 56v320c0 13.22-10.77 24-24 24s-24-10.8-24-24V112c0-13.25-10.75-24-24-24S0 98.75 0 112v296c0 39.7 32.3 72 72 72h352c48.53 0 88-39.47 88-88V88c0-30.87-25.1-56-56-56zm8 360c0 22.06-17.94 40-40 40H139.9c2.6-7.5 4.1-15.6 4.1-24V88c0-4.406 3.594-8 8-8h304c4.406 0 8 3.594 8 8v304zM264 272h-64c-13.2 0-24 10.8-24 24s10.8 24 24 24h64c13.3 0 24-10.7 24-24s-10.7-24-24-24zm144 0h-64c-13.2 0-24 10.8-24 24s10.8 24 24 24h64c13.25 0 24-10.75 24-24s-10.7-24-24-24zm-144 80h-64c-13.25 0-24 10.75-24 24s10.75 24 24 24h64c13.25 0 24-10.75 24-24s-10.7-24-24-24zm144 0h-64c-13.2 0-24 10.8-24 24s10.75 24 24 24h64c13.25 0 24-10.75 24-24s-10.7-24-24-24zm-8-240H208c-17.67 0-32 14.33-32 32v64c0 17.67 14.33 32 32 32h192c17.67 0 32-14.33 32-32v-64c0-17.7-14.3-32-32-32z"/></svg>
+    </a>
+  
+    
+    
+    <a href="https://ko-fi.com/jonspaceharper" target="_blank" rel="noopener" title="Support me on Ko-Fi!" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.881 8.948c-.773-4.085-4.859-4.593-4.859-4.593H.723c-.604 0-.679.798-.679.798s-.082 7.324-.022 11.822c.164 2.424 2.586 2.672 2.586 2.672s8.267-.023 11.966-.049c2.438-.426 2.683-2.566 2.658-3.734 4.352.24 7.422-2.831 6.649-6.916zm-11.062 3.511c-1.246 1.453-4.011 3.976-4.011 3.976s-.121.119-.31.023c-.076-.057-.108-.09-.108-.09-.443-.441-3.368-3.049-4.034-3.954-.709-.965-1.041-2.7-.091-3.71.951-1.01 3.005-1.086 4.363.407 0 0 1.565-1.782 3.468-.963 1.904.82 1.832 3.011.723 4.311zm6.173.478c-.928.116-1.682.028-1.682.028V7.284h1.77s1.971.551 1.971 2.638c0 1.913-.985 2.667-2.059 3.015z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.sections", "navigation.top"], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.5a2dcb6a.min.js"></script>
+      
+    
+    
+  </body>
+</html>
