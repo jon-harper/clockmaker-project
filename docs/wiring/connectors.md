@@ -4,7 +4,6 @@ summary: Properties of common types of connectors.
 authors: Jon Harper
 date: 2022-12-02
 ---
-
 ## Basic Considerations
 
 - Electrical properties
@@ -58,11 +57,46 @@ Common uses:
 
 ## Pin and Socket Connectors
 
+### Harwin M20 / "DuPont"
+
+These are very simple, common connectors for bare 0.1" headers. They are not latching or locking and should be avoided (or used with hot glue for retention)
+
+1. [Why are they called DuPont connectors?][dupont_name]
+2. [Why are they so hard to crimp?][dupont_crimp]
+
+<div class="nt-cards nt-grid cols-2" markdown>
+<div markdown><div markdown>
+
+**Specifications**
+
+- Pitch: 2.54mm
+- Max Current Rating: 3A
+- Wire Gauges: AWG #22-#30
+- Applications: board only
+- Available Positions:
+    - Single Row: 2-12 position
+    - Dual Row: 4-24 position
+
+</div></div>
+<div markdown><div markdown>
+
+**Links**
+
+[:material-order-alphabetical-ascending: Datasheet][ds_harwin_m20]{ .md-button }
+
+[:simple-amazon: Amazon Kit][az_harwin_m20]{ .md-button } 
+
+</div></div>
+</div>
+
 ### JST PH
 
 These have wide application as a compact connector for PCBs when space is at a premium. NEMA 17 steppers often use this connector.
 
 The small pitch can make these difficult to crimp.
+
+<div class="nt-cards nt-grid cols-2" markdown>
+<div markdown><div markdown>
 
 **Specifications**
 
@@ -73,15 +107,24 @@ The small pitch can make these difficult to crimp.
 - Available Positions:
     - Single Row: 2-16
 
+</div></div>
+<div markdown><div markdown>
+
 **Links**
 
 [:material-order-alphabetical-ascending: Datasheet][ds_jst_ph]{ .md-button }
 
 [:simple-amazon: Amazon 2-6 Position Kit][az_jst_ph]{ .md-button } 
 
+</div></div>
+</div>
+
 ### JST RCY
 
 These are sometimes called JST SYP, though JST lists the product as RCY series. RCY connectors are used in 3D printing to extend wire pairs (or make them disconnectable) as an inline alternative to XH or PH connectors. RCY are also physically smaller in size than SM.
+
+<div class="nt-cards nt-grid cols-2" markdown>
+<div markdown><div markdown>
 
 **Specifications**
 
@@ -93,15 +136,52 @@ These are sometimes called JST SYP, though JST lists the product as RCY series. 
 - Common uses: remote-controlled cars and airplanes.
 - Notes: usually red or black. Sometimes found in 2.54mm pitch.
 
+</div></div>
+<div markdown><div markdown>
+
 **Links**
 
 [:material-order-alphabetical-ascending: Datasheet][ds_jst_rcy]{ .md-button }
 
 [:simple-amazon: Amazon Kit][az_jst_rcy]{ .md-button } 
 
+</div></div>
+</div>
+
+### JST SH
+
+This connector is most familiar to BLTouch users with the 5-position female connector. The 4-position female SH connector is used for the SparkFun Qwiic and Adafruit Stemma QT interconnects for I2C.
+
+<div class="nt-cards nt-grid cols-2" markdown>
+<div markdown><div markdown>
+
+**Specifications**
+
+- Pitch: 1.0mm
+- Current Rating: 1.0A
+- Wire Gauges: AWG #28-#32
+- Applications: board only
+- Available Positions:
+    - Single Row: 2-15, 20
+
+</div></div>
+<div markdown><div markdown>
+
+**Links**
+
+[:material-order-alphabetical-ascending: Datasheet][ds_jst_sh]{ .md-button }
+
+[:simple-amazon: Amazon 2-6 Position Kit][az_jst_sh]{ .md-button } 
+
+</div></div>
+</div>
+
 ### JST SM
 
 Although these connectors are only for wire-to-wire connections, they are easy to crimp and can be panel mounted. A downside to SM connectors is the size of the shell.
+
+<div class="nt-cards nt-grid cols-2" markdown>
+<div markdown><div markdown>
 
 **Specifications**
 
@@ -115,6 +195,9 @@ Although these connectors are only for wire-to-wire connections, they are easy t
 - Common uses: RGB LED light strips
 - Notes: found in a wide variety of colors, most commonly white or ivory.
 
+</div></div>
+<div markdown><div markdown>
+
 **Links**
 
 [:material-order-alphabetical-ascending: Datasheet][ds_jst_sm]{ .md-button }
@@ -123,9 +206,15 @@ Although these connectors are only for wire-to-wire connections, they are easy t
 
 [:simple-amazon: Amazon 2-9 Position Kit][az_jst_sm_full]{ .md-button } 
 
-### JST XH 2.5
+</div></div>
+</div>
 
-This is the most common connector for 3D printers (e.g., most boards-side connectors & limit switches)
+### JST XH
+
+This is the most common connector for 3D printers (e.g., most board-side connectors & limit switches)
+
+<div class="nt-cards nt-grid cols-2" markdown>
+<div markdown><div markdown>
 
 **Specifications**
 
@@ -136,15 +225,24 @@ This is the most common connector for 3D printers (e.g., most boards-side connec
 - Available Positions:
     - Single Row: 2-16 position & 20 position
 
+</div></div>
+<div markdown><div markdown>
+
 **Links**
 
 [:material-order-alphabetical-ascending: Datasheet][ds_jst_xh]{ .md-button }
 
 [:simple-amazon: Amazon 2-5 Position Kit][az_jst_xh]{ .md-button } 
 
+</div></div>
+</div>
+
 ### Molex Micro Fit 3.0
 
 Perfect but for the price. Found on 3D printers, particularly as hotend connectors.
+
+<div class="nt-cards nt-grid cols-2" markdown>
+<div markdown><div markdown>
 
 **Specifications**
 
@@ -156,17 +254,26 @@ Perfect but for the price. Found on 3D printers, particularly as hotend connecto
     - Single Row: 2-11 position
     - Dual Row: 2-24 position
 
+</div></div>
+<div markdown><div markdown>
+
 **Links**
 
 [:material-order-alphabetical-ascending: Datasheet][ds_molex_mf3]{ .md-button }
 
 [:simple-digikeyelectronics: Digikey][dk_molex_mf3]{ .md-button } 
 
+</div></div>
+</div>
+
 ### Molex Mini Fit Jr
 
 This is the familiar ATX connector used in computers for motherboard and video card power.
 
 This connector may have application for heated beds (using two or more parallel circuits).
+
+<div class="nt-cards nt-grid cols-2" markdown>
+<div markdown><div markdown>
 
 **Specifications**
 
@@ -178,11 +285,17 @@ This connector may have application for heated beds (using two or more parallel 
     - Single Row: 2-6 position
     - Dual Row: 2-24 position
 
+</div></div>
+<div markdown><div markdown>
+
 **Links**
 
 [:material-order-alphabetical-ascending: Datasheet][ds_molex_mfjr]{ .md-button }
 
 [:simple-digikeyelectronics: Digikey][dk_molex_mfjr]{ .md-button } 
+
+</div></div>
+</div>
 
 ## Closed Barrel Connectors
 
@@ -204,30 +317,6 @@ Generally speaking, closed barrel connectors do not use pins and thus are single
 
 ## Other Connectors
 
-### Harwin M20 / "DuPont"
-
-These are very simple, common connectors for bare 0.1" headers. They are not latching or locking and should be avoided (or used with hot glue for retention)
-
-1. [Why are they called DuPont connectors?][dupont_name]
-2. [Why are they so hard to crimp?][dupont_crimp]
-
-**Specifications**
-
-- Pitch: 2.54mm
-- Max Current Rating: 3A
-- Wire Gauges: AWG #22-#30
-- Applications: board only
-- Available Positions:
-    - Single Row: 2-12 position
-    - Dual Row: 4-24 position
-
-**Links**
-
-[:material-order-alphabetical-ascending: Datasheet][ds_harwin_m20]{ .md-button }
-
-[:simple-amazon: Amazon Kit][az_harwin_m20]{ .md-button } 
-
-
 ### Aviation
 
 !!! todo "TODO: Expand"
@@ -246,15 +335,14 @@ These connectors are not meant for frequent mating and removal. They should be a
 
 RJ-45 is the specification for the connector that terminates Ethernet cables, often generically referred to as Cat5 or Cat6 cables. RJ-45 connectors are not suitable for applications with more than a few hundred milliamps of current.
 
-:octicons-check-circle-fill-16:{.jh-green} Pro
+Pros and Cons:
 
-- Readily available
-- Inexpensive
-
-:octicons-x-circle-24:{.jh-red} Con
-
-- Large connector
-- Low current rating
+<div markdown class="jh-proconlist">
+- [x] Readily available
+- [x] Inexpensive
+- [ ] Large connector
+- [ ] Low current rating
+</div>
 
 !!! todo "TODO: Expand"
 
@@ -265,3 +353,4 @@ RJ-45 is the specification for the connector that terminates Ethernet cables, of
 [ds_jst_xh]:        ../assets/datasheets/jst_xh.pdf
 [ds_jst_rcy]:       ../assets/datasheets/jst_rcy.pdf
 [ds_harwin_m20]:    ../assets//datasheets/harwin_m20.pdf
+[ds_jst_sh]:        ../assets/datasheets/jst_sh.pdf
