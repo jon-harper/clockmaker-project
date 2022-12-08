@@ -32,12 +32,6 @@ Enter The Clockmaker Project. More toolbox than blueprint, this project collects
 
 Additionally, the associated git repository has printable files to help build your own enclosure.
 
-## Overviews
+## Navigation
 
-[:material-tools: Tools and Resources](resources/index.md){ .md-button }
-
-[:material-air-filter: Filtration, Ventilation, and Temperature Control](air/index.md){ .md-button }
-
-[:material-power-plug: Electrical](wiring/index.md){ .md-button }
-
-[:material-format-list-numbered: Materials](materials/index.md){ .md-button }
+[cards(docs/assets/navlinks.yaml)]

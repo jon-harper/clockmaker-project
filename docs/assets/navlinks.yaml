@@ -1,0 +1,16 @@
+- title: Tools
+  image: ./img/tools.png
+  content: A collection of resources and helpful links.
+  url: "resources/"
+- title: Environment
+  content: Ventilation, filtration, and temperature control.
+  image: ./img/air-filter.png
+  url: "air/"
+- title: Materials
+  content: Frame, cladding, and insulation.
+  image: ./img/stack.png
+  url: "materials/"
+- title: Electrical
+  content: Wiring, connectors, and working with them.
+  image: ./img/power-plug-outline.png
+  url: "wiring/"

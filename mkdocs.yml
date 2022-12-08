@@ -29,6 +29,7 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.tasklist:
       custom_checkbox: true
+  - neoteroi.cards
 theme:
   name: material
   logo: img/logo3.png
@@ -75,11 +76,9 @@ extra_css:
       
 nav:
   - index.md
+  - resources/index.md
 
-  - Tools & Resources:
-    - resources/index.md
-
-  - Ventilation & Filtration:
+  - Environmental Control:
     - air/index.md
 
   - Enclosure Materials:
