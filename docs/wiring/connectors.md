@@ -59,6 +59,46 @@ Common uses:
 
 ## Pin and Socket Connectors
 
+### Amphenol Micro Power
+
+These are an affordable alternative to Micro Fit 3 that unfortunately do not have a panel mount option.
+
+<div class="nt-cards nt-grid cols-2" markdown>
+<div markdown><div markdown>
+
+**Specifications**
+
+- Pitch: 3.0mm
+- Max Current Rating: 5A
+- Wire Gauges: AWG #20-#30
+- Applications: board, inline
+- Available Positions:
+    - Single Row: 2-12 position
+    - Dual Row: 4-24 position
+
+</div></div>
+<div markdown><div markdown>
+
+**Pros and Cons**
+
+<div class="jh-proconlist" markdown>
+- [x] Inexpensive
+- [x] 5A current rating
+- [ ] No panel mount housings
+- [ ] One pin type for gauge #20-#30 may make smaller wires hard to crimp
+- [ ] Not very common; no kits available
+</div>
+
+</div></div>
+<div markdown><div markdown>
+
+**Links**
+
+[:material-order-alphabetical-ascending: Datasheet][ds_amp_micropower]{ .md-button }
+
+</div></div>
+</div>
+
 ### Harwin M20 / "DuPont"
 
 These are very simple, common connectors for bare 0.1" headers. They are not latching or locking and should be avoided (or used with hot glue for retention)
@@ -504,6 +544,10 @@ RJ-45 is the specification for the connector that terminates Ethernet cables, of
 
 !!! todo "TODO: Expand"
 
+## Further Reading
+
+- [SparkFun: Connector Basics][sparkfun_connectors]
+
 [ds_molex_mf3]:     ../assets/datasheets/molex_mf3.pdf
 [ds_molex_mfjr]:    ../assets/datasheets/molex_mfjr.pdf
 [ds_jst_ph]:        ../assets/datasheets/jst_ph.pdf
@@ -513,3 +557,4 @@ RJ-45 is the specification for the connector that terminates Ethernet cables, of
 [ds_harwin_m20]:    ../assets//datasheets/harwin_m20.pdf
 [ds_jst_sh]:        ../assets/datasheets/jst_sh.pdf
 [ds_xt60]:          ../assets/datasheets/xt60.pdf
+[ds_amp_micropower]:          ../assets/datasheets/micro_power.pdf
