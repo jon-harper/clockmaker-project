@@ -1,5 +1,5 @@
 ---
-title: Electrical Considerations
+title: Electrical
 summary: Introduction to electrical considerations with enclosures.
 authors: Jon Harper
 date: 2022-11-29
