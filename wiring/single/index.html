@@ -255,45 +255,10 @@
   
   
   
-    
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_2">
-          Tools & Resources
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Tools & Resources" data-md-level="1">
-        <label class="md-nav__title" for="__nav_2">
-          <span class="md-nav__icon md-icon"></span>
-          Tools & Resources
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
     <li class="md-nav__item">
       <a href="../../resources/" class="md-nav__link">
-        Overview
+        Tools and Resources
       </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
     </li>
   
 
@@ -317,14 +282,14 @@
       
       
         <label class="md-nav__link" for="__nav_3">
-          Ventilation & Filtration
+          Environmental Control
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Ventilation & Filtration" data-md-level="1">
+      <nav class="md-nav" aria-label="Environmental Control" data-md-level="1">
         <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
-          Ventilation & Filtration
+          Environmental Control
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -335,7 +300,7 @@
   
     <li class="md-nav__item">
       <a href="../../air/" class="md-nav__link">
-        Overview
+        Environment Control Overview
       </a>
     </li>
   
@@ -437,7 +402,7 @@
   
     <li class="md-nav__item">
       <a href="../" class="md-nav__link">
-        Electrical Considerations
+        Electrical
       </a>
     </li>
   
@@ -984,7 +949,7 @@
 </table>
 <ul>
 <li>Typical AWG: 20</li>
-<li>Common Termination: screw terminals or Molex Micro Fit 3.</li>
+<li>Common Termination: screw post terminals or Molex Micro Fit 3.</li>
 <li>Notes:<ul>
 <li>Polarity does not matter.</li>
 <li>Many JST connectors are limited to 3 amperes. This may be insufficient after derating for parallel conductors (and ambient temperature for enclosed printers).</li>
@@ -1015,7 +980,17 @@
 </table>
 <ul>
 <li>Typical AWG: none, specific to bed</li>
-<li>Common Termination: screw terminals, ring connectors</li>
+<li>Common Termination: <ul>
+<li>Screw post terminals (bare/ferrules)</li>
+<li>Screw block terminals (ring/fork)</li>
+<li>XT60 connectors</li>
+</ul>
+</li>
+<li>Notes: <ul>
+<li>Some beds also use a number of parallel circuits with lower-amperage connectors.</li>
+<li><strong>AC beds need a <a href="#protective-earth">protective earth</a> connection.</strong></li>
+</ul>
+</li>
 </ul>
 <h3 id="stepper-motors">Stepper Motors</h3>
 <table>
@@ -1376,7 +1351,6 @@
 <li>Typical AWG: None</li>
 <li>Common Termination: None</li>
 </ul>
-<!-- connectors -->
 
 
 
