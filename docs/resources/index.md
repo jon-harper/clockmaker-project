@@ -1,6 +1,6 @@
 ---
-title: Overview
-summary: Overview of tools and resources.
+title: Tools and Resources
+summary: Overview of external tools and resources.
 authors: Jon Harper
 date: 2022-12-02
 ---
