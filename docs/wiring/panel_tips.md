@@ -147,6 +147,7 @@ A one-to-many panel mount connects multiple components. From the panel, the cabl
 
 - [Falconer Electronics: Wire Harness Manufacturing Terms, Tools, and Tips of the Trade][tips]
 - [Molex: Quality Crimping Handbook][crimping_handbook]
+- [SparkFun: Working With Wire][sparkfun_wire]
 
 [img_single]: ../img/wiring/single_panel.jpg
 [img_multi]: ../img/wiring/multi_panel.jpg
