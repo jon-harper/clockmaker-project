@@ -28,7 +28,7 @@ date: 2022-11-29
 | GND      | 2      | K ![black][black] |
 
 - Typical AWG: 20
-- Common Termination: screw terminals or Molex Micro Fit 3.
+- Common Termination: screw post terminals or Molex Micro Fit 3.
 - Notes:
     - Polarity does not matter.
     - Many JST connectors are limited to 3 amperes. This may be insufficient after derating for parallel conductors (and ambient temperature for enclosed printers).
@@ -41,7 +41,13 @@ date: 2022-11-29
 | GND      | 2      | K ![black][black] |
 
 - Typical AWG: none, specific to bed
-- Common Termination: screw terminals, ring connectors
+- Common Termination: 
+    - Screw post terminals (bare/ferrules)
+    - Screw block terminals (ring/fork)
+    - XT60 connectors
+- Notes: 
+    - Some beds also use a number of parallel circuits with lower-amperage connectors.
+    - **AC beds need a [protective earth](#protective-earth) connection.**
 
 ### Stepper Motors
 
