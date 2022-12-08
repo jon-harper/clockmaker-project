@@ -70,12 +70,17 @@
 
 .nt-card {
     text-align: center;
-    background-color:rgba(192, 192, 192, 0.5);
+    background-color: var(--md-default-bg-color--light);
     border-width: 1.5px;
     border-style: solid;
     border-color: var(--md-accent-bg-color--light);
     border-radius: 5px;
-    min-height: 200px;
+}
+
+.nt-card .nt-card-image img {
+    position:relative;
+    margin-top: -12px;
+    opacity: 50%;
 }
 
 .nt-card a {
@@ -83,6 +88,7 @@
 }
 
 .nt-card:hover {
+    border-color: var(--md-accent-fg-color);
     background-color: var(--md-accent-bg-color--light);
 }
 

@@ -34,4 +34,4 @@ Additionally, the associated git repository has printable files to help build yo
 
 ## Navigation
 
-[cards(docs/assets/navlinks.yaml)]
+[cards cols=3(docs/assets/navlinks.yaml)]
