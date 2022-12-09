@@ -87,6 +87,10 @@
     color: var(--md-typeset-a-color);
 }
 
+.nt-card .nt-card-title {
+    font-family: var(--md-code-font);
+}
+
 .nt-card:hover {
     border-color: var(--md-accent-fg-color);
     background-color: var(--md-accent-bg-color--light);

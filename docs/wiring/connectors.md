@@ -1,5 +1,5 @@
 ---
-title: Connector Reference
+title: Connectors Reference
 summary: Properties of common types of connectors.
 authors: Jon Harper
 date: 2022-12-02
@@ -30,7 +30,7 @@ This page is a list of connectors. Most are commonly encountered when working wi
     - Free hanging
     - Panel mount
 
-    Board connectors have one connector design for a board and mating connector for the wire.
+    Board connectors have one connector for a board and mating connector for the cable.
 
     Free hanging connectors mate two two cables together. Panel mount connectors are a type of free hanging connector that can also be attached to a panel (usually by snapping in place with a pair of "ears").
     

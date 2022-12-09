@@ -5,30 +5,42 @@ authors: Jon Harper
 date: 2022-12-02
 ---
 
-## TODO Status
+## Outline
 
-Checkmarks indicate a page exists, not that it is complete.
+### Framing Materials
 
-- [ ] Materials
-    - Framing
-        - Wood
-        - Aluminum
-        - Plastics
-    - Sheets
-        - Wood
-        - Aluminum
-        - Plastics
-            - ABS (acrylonitrile butadiene styrene)
-            - Corrugated PP (polypropylene, Coroplast)
-            - PMMA (Acrylic/Plexiglass)
-- [ ] Insulation
-    - Polyisocyanurate (PIR) foam
-    - Polystyrene (PS) foam
-    - Insulation cladding
+- Aluminum
+- Plastics
+- Steel
+- Wood
+
+### Exterior Panels
+
+- Aluminum
+- Plastics
+    - ABS (acrylonitrile butadiene styrene)
+    - PP (polypropylene, Coroplast)
+    - PMMA (polymethyl methacrylate, acrylic glass, Plexiglass)
+    - PC (polycarbonate)
+    - Others
+- Wood
+    - Plywood
+    - MDF
+###  Insulation & Windows
+
+- Insulation
+    - PIR (polyisocyanurate) foam
+    - PS (polystyrene) foam
     - Other insulators
-        - Air
-        - Vaccuum
-- [ ] Other Material Considerations
-    - Camera
-    - Lighting
+- Windows
+    - PMMA (polymethyl methacrylate, acrylic glass, Plexiglass)
+    - PC (polycarbonate)
+    - Others
+- Other insulators
+    - Air
+    - Vaccuum
 
+### Other Considerations
+
+- Camera
+- Lighting
