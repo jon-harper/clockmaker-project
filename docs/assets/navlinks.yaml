@@ -1,7 +1,15 @@
+- title: About
+  image: ./img/logo2.png
+  content: About this project.
+  url: "about/"
 - title: Tools
   image: ./img/tools.png
   content: A collection of resources and helpful links.
   url: "resources/"
+- title: Electrical
+  content: Wiring, connectors, and working with them.
+  image: ./img/lightning-bolt.png
+  url: "wiring/"
 - title: Environment
   content: Ventilation, filtration, and temperature control.
   image: ./img/air-filter.png
@@ -10,7 +18,3 @@
   content: Frame, cladding, and insulation.
   image: ./img/stack.png
   url: "materials/"
-- title: Electrical
-  content: Wiring, connectors, and working with them.
-  image: ./img/power-plug-outline.png
-  url: "wiring/"
