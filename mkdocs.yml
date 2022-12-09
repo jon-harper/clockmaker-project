@@ -17,7 +17,11 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.keys
   - pymdownx.mark
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.snippets:
       auto_append: 
         - include/links.md
@@ -76,6 +80,7 @@ extra_css:
       
 nav:
   - index.md
+  - about.md
   - resources/index.md
 
   - Environmental Control:
@@ -90,6 +95,7 @@ nav:
       - wiring/panel_tips.md
       - wiring/single.md
       - wiring/multi.md
+      - wiring/multi2.md
     - Reference:
       - wiring/connectors.md
       - wiring/terms.md
