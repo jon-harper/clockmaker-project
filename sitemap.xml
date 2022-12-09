@@ -2,57 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://jon-harper.github.io/clockmaker-project/</loc>
-         <lastmod>2022-12-08</lastmod>
+         <lastmod>2022-12-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jon-harper.github.io/clockmaker-project/about/</loc>
+         <lastmod>2022-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jon-harper.github.io/clockmaker-project/air/</loc>
-         <lastmod>2022-12-08</lastmod>
+         <lastmod>2022-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jon-harper.github.io/clockmaker-project/assets/macros/cards/</loc>
-         <lastmod>2022-12-08</lastmod>
+         <lastmod>2022-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jon-harper.github.io/clockmaker-project/materials/</loc>
-         <lastmod>2022-12-08</lastmod>
+         <lastmod>2022-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jon-harper.github.io/clockmaker-project/resources/</loc>
-         <lastmod>2022-12-08</lastmod>
+         <lastmod>2022-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jon-harper.github.io/clockmaker-project/wiring/</loc>
-         <lastmod>2022-12-08</lastmod>
+         <lastmod>2022-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jon-harper.github.io/clockmaker-project/wiring/connectors/</loc>
-         <lastmod>2022-12-08</lastmod>
+         <lastmod>2022-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jon-harper.github.io/clockmaker-project/wiring/multi/</loc>
-         <lastmod>2022-12-08</lastmod>
+         <lastmod>2022-12-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jon-harper.github.io/clockmaker-project/wiring/multi2/</loc>
+         <lastmod>2022-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jon-harper.github.io/clockmaker-project/wiring/panel_tips/</loc>
-         <lastmod>2022-12-08</lastmod>
+         <lastmod>2022-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jon-harper.github.io/clockmaker-project/wiring/single/</loc>
-         <lastmod>2022-12-08</lastmod>
+         <lastmod>2022-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jon-harper.github.io/clockmaker-project/wiring/terms/</loc>
-         <lastmod>2022-12-08</lastmod>
+         <lastmod>2022-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
