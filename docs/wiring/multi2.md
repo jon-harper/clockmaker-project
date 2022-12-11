@@ -30,11 +30,11 @@ This is a more complicated example of an enclosed Ender 5. It has the following 
 ```mermaid
 flowchart BT
     subgraph Panel
-        X{{"Motion 1 6P"}}
+        X{{"Motion #1\n6P"}}
     end
     subgraph MCU
-        LIMX("LIMX 2P")
-        MOTX("MOTX 4P")
+        LIMX("LIMX\n2P")
+        MOTX("MOTX\n4P")
     end
     LIMX --- X
     MOTX --- X
@@ -52,16 +52,16 @@ flowchart BT
 flowchart BT
     subgraph Panel
         direction LR
-        Y{{"Motion 2 16P"}}
+        Y{{"Motion #2\n16P"}}
     end
     subgraph MCU
         direction LR
-        LIMY("LIMY 2P")
-        LIMZ("LIMZ 2P")
-        MOTY("MOTY 4P")
-        MOTZ("MOTZ 4P")
-        TB("TB 2P")
-        LGTC("LGTC 2P")
+        LIMY("LIMY\n2P")
+        LIMZ("LIMZ\n2P")
+        MOTY("MOTY\n4P")
+        MOTZ("MOTZ\n4P")
+        TB("TB\n2P")
+        LGTC("LGTC\n2P")
     end
     TB --- Y
     LIMY --- Y
@@ -88,17 +88,17 @@ flowchart BT
 flowchart BT
     subgraph Panel
         direction LR
-        T{{"Toolhead 20P"}}
+        T{{"Toolhead\n20P"}}
     end
     subgraph MCU
         direction LR
-        HOT("HOT 2P")
-        RGB("RGB 3P")
-        TH("TH 2P")
-        FH1("FH1 2P")
-        FH2("FH2 2P")
-        ABL("ABL 5P")
-        MOTE("MOTE 4P")
+        HOT("HOT\n2P")
+        RGB("RGB\n3P")
+        TH("TH\n2P")
+        FH1("FH1\n2P")
+        FH2("FH2\n2P")
+        ABL("ABL \n5P")
+        MOTE("MOTE\n4P")
     end
     HOT --- T
     TH --- T
@@ -124,19 +124,19 @@ flowchart BT
 
 ### Chamber
 
-Although only six (6) pins are used, we here we use an 8 position connector to avoid confusion with the X axis connector.
+Although only six (6) pins are used, we here we use an eight (8) position connector to avoid confusion with the Motion #1 (X axis) connector.
 
 ```mermaid
 flowchart BT
     subgraph Panel
         direction LR
-        C{{"Chamber 8P"}}
+        C{{"Chamber\n8P"}}
     end
     subgraph MCU
         direction LR
-        TC("TC 2P")
-        FC1("FC1 2P")
-        FC2("FC2 2P")
+        TC("TC\n2P")
+        FC1("FC1\n2P")
+        FC2("FC2\n2P")
     end
     TC --- C
     FC1 --- C
