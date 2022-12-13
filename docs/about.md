@@ -31,3 +31,9 @@ Enter The Clockmaker Project. More toolbox than blueprint, this project collects
 - Links to outside resources
 
 Additionally, the associated git repository has printable files to help build your own enclosure.
+
+## "Clockmaker"
+
+*Clockmaker* is a reference to an antagonist in the Alastair Reynolds novel *The Prefect*. The Clockmaker is innately dangerous but is set after a noble task in the end. This strikes me as a parallel for the hazards of enclosed 3D printing.
+
+"Devil in Chrome" is a phrase that describes The Clockmaker character in *The Prefect*. Every maker has at some point felt that a 3D printer is a devil in chrome that requires their effort, time and attention. The Clockmaker Project focuses on consolidating information for makers to save time and frustration.
