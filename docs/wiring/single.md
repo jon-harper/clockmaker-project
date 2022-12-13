@@ -98,7 +98,7 @@ date: 2022-11-29
 | TAC      | 3      | Y :yellow_circle: |
 
 - Typical AWG: 24/28
-- Common Termination: TODO
+- Common Termination: Molex KK 254, 3 position ([Molex PN 22013037](https://www.molex.com/molex/products/part-detail/crimp_housings/0022013037))
 - Notes:
     - 24 awg is easier to crimp; 28 is sufficient.
     - This reverses the typical GND/VIN pin order of most 4-pin fans.
@@ -113,11 +113,10 @@ date: 2022-11-29
 | PWM      | 4      | G :green_circle:  |
 
 - Typical AWG: 24/28
-- Common Termination: TODO
+- Common Termination: Molex KK 254, 4 position ([Molex PN 470541000](https://www.molex.com/molex/products/part-detail/crimp_housings/0470541000))
 - Notes:
     - 24 awg is easier to crimp; 28 is sufficient.
-    - This reverses the typical GND/VIN pin order of most 4-pin fans.
-
+    - The pin order chart reverses the typical GND/VIN pin order of most 4-pin fans.
 
 ## Analog Sensors
 
