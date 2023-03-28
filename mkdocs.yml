@@ -96,7 +96,6 @@ nav:
       - wiring/single.md
       - wiring/multi.md
       - wiring/multi2.md
-    - Reference:
-      - wiring/connectors.md
-      - wiring/terms.md
+    - wiring/connectors.md
+# - wiring/terms.md
     
