@@ -13,6 +13,7 @@ date: 2022-12-02
 - [x] Frames from t-slotted extrusions are simple to design and assemble.
 - [x] Can be cut to length from stock.
 - [x] Can be ordered with pre-drilled and tapped holes or other modifications.
+- [ ] Acts as a heat sink (high thermal conductivity & very high specific heat capacity).
 - [ ] CNC work beyond basic cuts is expensive.
 </div>
 
@@ -21,10 +22,12 @@ date: 2022-12-02
 ### Steel
 
 <div class="jh-proconlist" markdown>
-- [x] Inexpensive.
+- [x] Inexpensive & readily available.
+- [x] Can be cut and machined from stock extrusions.
 - [ ] Heavier than aluminum or wood.
-- [ ] Requires more work than t-slot to use.
+- [ ] Harder to machine and fabricate than aluminum.
 - [ ] Requires protection against oxidation.
+- [ ] CNC work beyond basic cuts is expensive.
 </div>
 
 ### Wood
@@ -34,6 +37,7 @@ date: 2022-12-02
 - [x] Tools are common, cheap to purchase or easy to borrow.
 - [ ] Quality varies.
 - [ ] Can be expensive if sourcing specific materials.
+- [ ] Wood suitable for framing is heavy.
 </div>
 
 ## Exterior Panels
@@ -45,6 +49,16 @@ date: 2022-12-02
 - [x] Can be purchased as sheets.
 - [x] Easy to drill.
 - [ ] CNC work beyond basic cuts becomes expensive.
+</div>
+
+### ACM Panels
+
+*TODO: Complete*
+
+<div class="jh-proconlist" markdown>
+- [x] Can be purchased as sheets.
+- [x] Excellent insulator from radiant heat.
+- [ ] Expensive
 </div>
 
 ### Plastics
@@ -66,16 +80,9 @@ date: 2022-12-02
 - Insulation
     - PIR (polyisocyanurate) foam
     - PS (polystyrene) foam
+    - Neoprene
     - Other insulators
 - Windows
     - PMMA (polymethyl methacrylate, acrylic glass, Plexiglass)
     - PC (polycarbonate)
     - Others
-- Other insulators
-    - Air
-    - Vaccuum
-
-## Other Considerations
-
-- Camera
-- Lighting
