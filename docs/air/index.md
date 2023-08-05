@@ -21,6 +21,7 @@ Checkmarks indicate a page exists, not that it is complete.
         - MERV standards
 - [ ] Tools and links
     - Filter kits
+        - [SUAFT][suaft]
         - [BOFA][printed_solid_bofa]
         - [Nevermore][nevermore_micro]
     - Tools
